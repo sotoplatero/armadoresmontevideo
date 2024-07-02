@@ -1,40 +1,32 @@
 ---
+import { getCollection } from "astro:content";
 import Container from "@components/container.astro";
 import Link from "@components/ui/link.astro";
 import Dropdown from "./dropdown.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
+const services = await getCollection("services")
+console.log(services)
 const menuitems = [
   {
-    title: "Features",
+    title: "Servicios",
     path: "#",
-    children: [
-      { title: "Action", path: "/" },
-      { title: "Another action", path: "#" },
-      { title: "Dropdown Submenu", path: "#" },
-      { title: "404 Page", path: "/404" },
-    ],
+    children: services.map( service => ({
+      title: service.data.menu,
+      path: `/servicio/${service.slug}`
+    })),
   },
   {
-    title: "Pricing",
-    path: "/pricing",
-  },
-  {
-    title: "About",
-    path: "/about",
+    title: "Nosotros",
+    path: "/nosotros",
   },
   {
     title: "Blog",
     path: "/blog",
   },
   {
-    title: "Contact",
-    path: "/contact",
-  },
-  {
-    title: "Pro Version",
-    badge: true,
-    path: "https://astroship-pro.web3templates.com/",
+    title: "Contacto",
+    path: "/contacto",
   },
 ];
 ---
@@ -91,8 +83,7 @@ const menuitems = [
     </Astronav>
     <div>
       <div class="hidden lg:flex items-center gap-4">
-        <a href="#">Log in</a>
-        <Link href="#" size="md">Sign up</Link>
+        <Link href="#" size="md">Agendar</Link>
       </div>
     </div>
   </header>
