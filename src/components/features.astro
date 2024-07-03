@@ -4,51 +4,44 @@ import { Icon } from "astro-icon/components";
 
 const features = [
   {
-    title: "Bring Your Own Framework",
-    description:
-      "Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.",
+    title: "Profesionalismo y Experiencia",
+    description:"Técnicos capacitados con años de experiencia aseguran un ensamblaje preciso y seguro.",
     icon: "bx:bxs-briefcase",
   },
   {
-    title: "100% Static HTML, No JS",
-    description:
-      "Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.",
+    title: "Ahorro de Tiempo y Esfuerzo",
+    description: "Nos encargamos del montaje completo, permitiéndote disfrutar de tus muebles sin estrés.",
     icon: "bx:bxs-window-alt",
   },
   {
-    title: "On-Demand Components",
-    description:
-      "Need some JS? Astro can automatically hydrate interactive components when they become visible on the page.  ",
+    title: "Calidad y Seguridad",
+    description: "Utilizamos herramientas profesionales para garantizar que tus muebles sean montados de manera segura y estable. ",
     icon: "bx:bxs-data",
   },
   {
-    title: "Broad Integration",
-    description:
-      "Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
+    title: "Atención Personalizada.",
+    description: "Nos adaptamos a tus horarios y necesidades, ofreciendo un servicio flexible y conveniente.",
     icon: "bx:bxs-bot",
   },
   {
-    title: "SEO Enabled",
-    description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
+    title: "Garantía de Satisfacción.",
+    description: "Si no estás completamente satisfecho, volveremos a solucionar cualquier problema sin costo adicional.",
     icon: "bx:bxs-file-find",
   },
   {
     title: "Community",
-    description:
-      "Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.",
+    description: "Montamos todo tipo de muebles, desde roperos y camas hasta estanterías y muebles multiusos.",
     icon: "bx:bxs-user",
   },
 ];
 ---
 
 <div class="mt-16 md:mt-0">
-  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-    Armado de Todo Tipo de Muebles
+  <h2 class="text-3xl lg:text-5xl font-bold lg:tracking-tight">
+    <span>¿Por Qué Elegir ArmadoresMontevideo?</span>
   </h2>
   <p class="text-lg mt-4 text-slate-600">
-    Astro comes batteries included. It takes the best parts of state-of-the-art
-    tools and adds its own innovations.
+    Beneficios y Características Destacadas de Nuestros Servicios de Armado de Muebles a Domicilio
   </p>
 </div>
 
@@ -60,7 +53,7 @@ const features = [
           <Icon class="text-white" name={item.icon} />
         </div>
         <div>
-          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+          <h3 class="font-semibold text-xl">{item.title}</h3>{" "}
           <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
         </div>
       </div>

@@ -8,53 +8,48 @@ import Button from "./ui/button.astro";
   action="https://api.web3forms.com/submit"
   method="POST"
   id="form"
-  class="needs-validation"
+  class="w-full needs-validation text-left"
   novalidate>
+
   <input type="hidden" name="access_key" value="0918522e-5af2-4c6f-b173-e00aea51b53c" />
-  <!-- Create your free access key from https://web3forms.com/ -->
-   <!-- <input type="hidden" name="redirect" value="https://yourwebsite.com/thanks.html"> -->
+  <input type="hidden" name="from_name" value="ArmadoresMontevideo">
+  <input type="hidden" name="subject" value="Cliente ArmadoresMontevideo">
+
   <input type="checkbox" class="hidden" style="display:none" name="botcheck" />
+
   <div class="mb-5">
     <input
       type="text"
-      placeholder="Nombre completo"
+      placeholder="Nombre"
       required
       class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
       name="name"
     />
-    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+    <div class="empty-feedback invalid-feedback text-gray-100 text-sm mt-1">
       Por favor, escriba su nombre
     </div>
   </div>
   <div class="mb-5">
-    <label for="email_address" class="sr-only">Correo Electronico</label><input
-      id="email_address"
-      type="email"
-      placeholder="Correo Electronico"
+    <label for="tel" class="sr-only">Télefono</label><input
+      id="tel"
+      type="tel"
+      placeholder="Télefono"
       name="email"
       required
       class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
     />
-    <div class="empty-feedback text-red-400 text-sm mt-1">
-      Escriba su correo electronico.
+    <div class="empty-feedback text-gray-100 text-sm mt-1">
+      Escribe tu télefono.
     </div>
-    <div class="invalid-feedback text-red-400 text-sm mt-1">
-      Escriba un correo electronico válido.
+    <div class="invalid-feedback text-gray-100 text-sm mt-1">
+      Escriba un télefono válido.
     </div>
   </div>
   <div class="mb-3">
-    <textarea
-      name="message"
-      required
-      placeholder=" "
-      class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none h-36 focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
-    ></textarea>
-    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-      Escriba su mensaje
-    </div>
+
   </div>
   <Button type="submit" size="lg" block>Enviar</Button>
-  <div id="result" class="mt-3 text-center"></div>
+  <div id="result" class="mt-4 text-lg text-center"></div>
 </form>
 
 <style>
@@ -88,11 +83,11 @@ import Button from "./ui/button.astro";
       form.querySelectorAll(":invalid")[0].focus();
       return;
     }
+    result.innerHTML = "Enviando...";
     const formData = new FormData(form);
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
-    result.innerHTML = "Sending...";
 
     fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -115,7 +110,7 @@ import Button from "./ui/button.astro";
       })
       .catch((error) => {
         console.log(error);
-        result.innerHTML = "Something went wrong!";
+        result.innerHTML = "Algo salió mal! Vuelve a intentarlo más tarde";
       })
       .then(function () {
         form.reset();

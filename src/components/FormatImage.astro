@@ -1,0 +1,20 @@
+---
+import { Image } from 'astro:assets';
+
+interface Props {
+  src: string;
+  alt: string;
+}
+
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/**/**/*.{jpeg,jpg,png,gif,webp}",
+);
+
+const {src, alt} = Astro.props as Props;
+const srcPath = Object.keys(images).filter(prop => prop.startsWith(src));
+---
+
+{ srcPath.length &&
+    <Image src={images[srcPath[0]]()} alt={alt} class="aspect-video cover" width="1200" height="600" class="rounded"/>
+}
