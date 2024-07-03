@@ -1,11 +1,11 @@
 ---
-title: Servicio Profesional de Armado de Racks y Muebles para TV en [Tu Ciudad]
-description: Armado profesional de racks y muebles para TV en [Tu Ciudad]. Montaje seguro y eficiente. Reserva tu cita hoy y disfruta de tu centro de entretenimiento perfectamente ensamblado.
+title: Servicio Profesional de Armado de Racks y Muebles para TV en Montevideo
+description: Armado profesional de racks y muebles para TV en Montevideo. Montaje seguro y eficiente. Reserva tu cita hoy y disfruta de tu centro de entretenimiento perfectamente ensamblado.
 menu: Montaje de Rack para TV
 ---
 
 
-**Bienvenido a [Nombre de tu Empresa]**, tu solución confiable para el armado de racks y muebles para TV en [Tu Ciudad]. Nos especializamos en ofrecer un servicio profesional y eficiente para asegurar que tu centro de entretenimiento quede perfectamente ensamblado y listo para usar. 
+**Bienvenido a ArmadoresMontevideo**, tu solución confiable para el armado de racks y muebles para TV en Montevideo. Nos especializamos en ofrecer un servicio profesional y eficiente para asegurar que tu centro de entretenimiento quede perfectamente ensamblado y listo para usar. 
 
 ---
 

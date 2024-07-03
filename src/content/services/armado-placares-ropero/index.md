@@ -1,10 +1,10 @@
 ---
 title: Servicio Profesional de Armado de Roperos en Montevideo
-description: Armado profesional de roperos en [Tu Ciudad]. Montaje seguro y eficiente. Reserva tu cita hoy y disfruta de tu ropero perfectamente ensamblado.
+description: Armado profesional de roperos en Montevideo. Montaje seguro y eficiente. Reserva tu cita hoy y disfruta de tu ropero perfectamente ensamblado.
 menu: Armado de Roperos/Placard
 ---
 
-**Bienvenido a ArmadoresMontevideo**, tu solución confiable para el armado de roperos en [Tu Ciudad]. Nos especializamos en ofrecer un servicio profesional y eficiente para asegurar que tu ropero quede perfectamente ensamblado y listo para usar.
+**Bienvenido a ArmadoresMontevideo**, tu solución confiable para el armado de roperos en Montevideo. Nos especializamos en ofrecer un servicio profesional y eficiente para asegurar que tu ropero quede perfectamente ensamblado y listo para usar.
 
 ---
 

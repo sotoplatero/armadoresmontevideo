@@ -1,12 +1,10 @@
 ---
-title: Servicio Profesional de Armado de Muebles a Domicilio en [Tu Ciudad]
-description: Armado profesional de muebles a domicilio en [Tu Ciudad]. Montaje seguro y eficiente. Reserva tu cita hoy y disfruta de tus muebles perfectamente ensamblados.
+title: Servicio Profesional de Armado de Muebles a Domicilio en Montevideo
+description: Armado profesional de muebles a domicilio en Montevideo. Montaje seguro y eficiente. Reserva tu cita hoy y disfruta de tus muebles perfectamente ensamblados.
 menu: Armado de Muebles a Domicilio
 ---
 
-**H1: Armado Profesional de Muebles a Domicilio en [Tu Ciudad]**
-
-**Bienvenido a [Nombre de tu Empresa]**, tu solución confiable para el armado de muebles a domicilio en [Tu Ciudad]. Nos especializamos en ofrecer un servicio profesional y eficiente para asegurar que tus muebles queden perfectamente ensamblados y listos para usar.
+**Bienvenido a ArmadoresMontevideo**, tu solución confiable para el armado de muebles a domicilio en Montevideo. Nos especializamos en ofrecer un servicio profesional y eficiente para asegurar que tus muebles queden perfectamente ensamblados y listos para usar.
 
 ---
 

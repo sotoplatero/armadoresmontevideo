@@ -1,7 +1,7 @@
 ---
 title: Servicio Profesional de Armado de Muebles Multiusos y Libreros en Montevideo
-description: Armado profesional de muebles multiusos y libreros en [Tu Ciudad]. Montaje seguro y eficiente. Reserva tu cita hoy y disfruta de tus muebles perfectamente ensamblados.
-menu: Armado de Muebles Multiusos
+description: Armado profesional de muebles multiusos y libreros en Montevideo. Montaje seguro y eficiente. Reserva tu cita hoy y disfruta de tus muebles perfectamente ensamblados.
+menu: Armado de Estanterias
 ---
 
 **Bienvenido a ArmadoresMontevideo**, tu solución confiable para el armado de **muebles multiusos y libreros**. Armamos todo tipos de muebles de la sala, nos ajustamos a tus condiciones. Nos especializamos en ofrecer un servicio profesional y eficiente para asegurar que tus muebles queden perfectamente ensamblados y listos para usar.

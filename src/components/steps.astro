@@ -1,0 +1,49 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon/components";
+
+const steps = [
+    {
+        "step": 1,
+        "title": "Contact Us",
+        "description": "Fill out our online form or call us directly. One of our technicians will call you to schedule the date and time that best suits you."
+    },
+    {
+        "step": 2,
+        "title": "Technician Visit",
+        "description": "A professional technician from ArmadoresMontevideo will arrive at your home at the scheduled time, equipped with all necessary tools. They will efficiently and precisely assemble your furniture."
+    },
+    {
+        "step": 3,
+        "title": "Inspection and Approval",
+        "description": "Once the assembly is complete, the technician will perform a final inspection to ensure everything is perfect. You will be invited to review the work to ensure your total satisfaction before the service is finalized."
+    }
+]
+
+
+---
+
+<div class="mt-16 md:mt-0">
+  <h2 class="text-3xl lg:text-5xl font-bold lg:tracking-tight">
+    <span>¿Por Qué Elegir ArmadoresMontevideo?</span>
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+    Beneficios y Características Destacadas de Nuestros Servicios de Armado de Muebles a Domicilio
+  </p>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+  {
+    steps.map((item) => (
+      <div class="">
+        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+            {item.step}
+        </div>
+        <div>
+          <h3 class="font-semibold text-xl">{item.title}</h3>{" "}
+          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))
+  }
+</div>

@@ -2,65 +2,32 @@
 // @ts-ignore
 import { Icon } from "astro-icon/components";
 import { getCollection } from "astro:content";
+import FormatImage from '@components/FormatImage.astro'
+const services = await getCollection('services')
 
-const services = (await getCollection('services'))
-
-const features = [
-  {
-    title: "Profesionalismo y Experiencia",
-    description:"Técnicos capacitados con años de experiencia aseguran un ensamblaje preciso y seguro.",
-    icon: "bx:bxs-briefcase",
-  },
-  {
-    title: "Ahorro de Tiempo y Esfuerzo",
-    description: "Nos encargamos del montaje completo, permitiéndote disfrutar de tus muebles sin estrés.",
-    icon: "bx:bxs-window-alt",
-  },
-  {
-    title: "Calidad y Seguridad",
-    description: "Utilizamos herramientas profesionales para garantizar que tus muebles sean montados de manera segura y estable. ",
-    icon: "bx:bxs-data",
-  },
-  {
-    title: "Atención Personalizada.",
-    description: "Nos adaptamos a tus horarios y necesidades, ofreciendo un servicio flexible y conveniente.",
-    icon: "bx:bxs-bot",
-  },
-  {
-    title: "Garantía de Satisfacción.",
-    description: "Si no estás completamente satisfecho, volveremos a solucionar cualquier problema sin costo adicional.",
-    icon: "bx:bxs-file-find",
-  },
-  {
-    title: "Community",
-    description: "Montamos todo tipo de muebles, desde roperos y camas hasta estanterías y muebles multiusos.",
-    icon: "bx:bxs-user",
-  },
-];
 ---
 
 <div class="mt-16 md:mt-0">
-  <h2 class="text-3xl lg:text-5xl font-bold lg:tracking-tight">
-    <span>Servicios de Armar Muebles a Domicilio</span>
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Servicios
   </h2>
   <p class="text-lg mt-4 text-slate-600">
-    Astro comes batteries included. It takes the best parts of state-of-the-art
-    tools and adds its own innovations.
+    Montaje Experto de Muebles para Hogares y Oficinas en Montevideo
   </p>
 </div>
 
 <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
   {
     services.map((item) => (
-      <div class="flex gap-4 items-start">
-        {/* <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
-          <Icon class="text-white" name={item.icon} />
-        </div> */}
-        <div>
-          <h3 class="font-semibold text-xl">{item.data.menu}</h3>{" "}
-          {/* <p class="text-slate-500 mt-2 leading-relaxed">{item.data.description}</p> */}
+      <a href={`/servicio/${item.slug}`}>
+        <div class="aspect-video object-cover rounded-md">
+            <FormatImage src={`/src/content/services/${item.slug}/image`} alt={item.data.title}/>
         </div>
-      </div>
+        <div>
+          <h3 class="font-semibold text-lg text-center mt-4">{item.data.menu}</h3>{" "}
+          {/* <p class="text-slate-500 mt-2 leading-relaxed">{data.description}</p> */}
+        </div>
+      </a>
     ))
   }
 </div>
