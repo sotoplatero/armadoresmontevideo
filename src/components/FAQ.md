@@ -49,9 +49,9 @@ Sí, también ofrecemos servicios de desmontaje y reubicación de muebles. Estos
 Sí, todos nuestros técnicos están capacitados y tienen amplia experiencia en el armado de muebles de diferentes tipos y marcas.
 
 ### 14. ¿Cubren toda la ciudad?
-Sí, ofrecemos nuestros servicios en toda la ciudad y sus alrededores. Verifica la cobertura específica de tu área en nuestro sitio web o contactando a nuestro servicio de atención al cliente.
+Sí, ofrecemos nuestros servicios en todos los barrios de Montevideo. Cualquier duda puedes escribirnos en la pagina de [contacto](/contacto).
 
 ### 15. ¿Qué medidas de seguridad e higiene toman durante el servicio?
-Nuestros técnicos siguen todas las recomendaciones de seguridad e higiene, incluyendo el uso de mascarillas, guantes y desinfectantes, para garantizar la seguridad de nuestros clientes y del personal.
+Nuestros técnicos siguen todas las recomendaciones de seguridad e higiene, si lo solicitas pueden trabajar con mascarillas para garantizar la seguridad de nuestros clientes y del personal.
 
 </div>

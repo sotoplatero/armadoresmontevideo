@@ -51,7 +51,7 @@ const services = (await getCollection('services'))
            <h3 class="font-medium text-sm text-slate-800">Barrios</h3>
            <div class="flex flex-col mt-3"> 
              {neighborhoods.map( neighborhood => (
-               <a href={`/${neighborhood.slug}/armado-muebles-domicilio`} class="py-2 text-sm text-slate-600 hover:text-indigo-600"> {neighborhood.name} </a>
+               <a href={`/barrio/${neighborhood.slug}/armado-muebles-domicilio`} class="py-2 text-sm text-slate-600 hover:text-indigo-600"> {neighborhood.name} </a>
              ))}
              </div>
         </div>
