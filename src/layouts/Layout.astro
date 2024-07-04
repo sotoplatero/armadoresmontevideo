@@ -19,9 +19,8 @@ const resolvedImageWithDomain = new URL(
 ).toString();
 
 let { title, description } = Astro.props;
-title = !!title ?  + title + " | " + "Armadores Montevideo" : SITE.TITLE
+title = !!title ? title + " | " + "Armadores Montevideo" : SITE.TITLE
 description = description || SITE.DESCRIPTION
-
 ---
 
 <!DOCTYPE html>
