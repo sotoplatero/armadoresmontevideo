@@ -4,11 +4,11 @@ import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar/navbar.astro";
 import "@fontsource-variable/inter/index.css";
 import '@fontsource-variable/inter';
-
-
+import { SITE  } from '../consts';
 
 export interface Props {
   title: string;
+  description: string;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
@@ -18,11 +18,10 @@ const resolvedImageWithDomain = new URL(
   Astro.site
 ).toString();
 
-const { title } = Astro.props;
+let { title, description } = Astro.props;
+title = title + " | " + "Armadores Montevideo"
+description = description || SITE.DESCRIPTION
 
-const makeTitle = title
-  ? title + " | " + "Astroship"
-  : "Astroship - Starter Template for Astro with Tailwind CSS";
 ---
 
 <!DOCTYPE html>
@@ -36,8 +35,8 @@ const makeTitle = title
 
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
-      title={makeTitle}
-      description="Astroship is a starter website template for Astro built with TailwindCSS."
+      title={title + ' | ' +  }
+      description={description}
       canonical={canonicalURL}
       twitter={{
         creator: "@surjithctly",

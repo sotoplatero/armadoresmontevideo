@@ -1,0 +1,34 @@
+---
+import { Picture } from 'astro:assets';
+
+interface Props {
+  src: string;
+  alt: string;
+}
+
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/blog/**/*.{jpeg,jpg,png,webp}",
+);
+
+const {src, alt} = Astro.props as Props;
+const srcPath = Object.keys(images).filter(prop => prop.startsWith(src));
+---
+
+<!-- { srcPath.length &&
+    <div class="aspect-video">
+        <Image src={images[srcPath[0]]()} alt={alt} class="aspect-video cover" width="1200" height="600" class="rounded"/>
+        {/* <Image src={srcPath[]()} alt={alt} class="aspect-video cover" width="1200" height="600" class="rounded"/> */}
+    </div>
+} -->
+
+{ srcPath.length &&
+    <Picture
+        src={images[srcPath[0]]()}
+        alt={alt}
+        sizes="(max-width: 800px) 100vw, 800px"
+        width={800}
+        height={450}
+        class="w-full rounded-md object-cover object-center bg-white aspect-4/3"
+    />
+}

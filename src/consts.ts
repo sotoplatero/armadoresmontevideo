@@ -1,8 +1,8 @@
 import type { Metadata, Site, Socials } from "@types";
 
 export const SITE: Site = {
-  TITLE: "Packing Travel",
-  DESCRIPTION: "Expert packing tips, detailed lists, and smart solutions for all types of travel. Simplify your packing and travel stress-free!",
+  TITLE: "Armadores Montevideo",
+  DESCRIPTION: "Disfruta de muebles perfectamente ensamblados. Ahorra tiempo y evita errores con nuestro servicio profesional de armado de muebles.",
   EMAIL: "soto.platero@gmail.com",
   NUM_POSTS_ON_HOMEPAGE: 6,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
