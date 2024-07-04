@@ -97,10 +97,4 @@ Nuestros técnicos siguen estrictamente las instrucciones del fabricante y utili
 
 ¿Listo para armar tu ropero sin complicaciones? Reserva tu servicio hoy mismo y disfruta de la tranquilidad de saber que tu ropero estará perfectamente ensamblado y seguro.
 
-**Teléfono:** [Tu número de teléfono]  
-**Correo Electrónico:** [Tu correo electrónico]  
-**Formulario de Contacto:** [Enlace al formulario]
-
-**Botón de Llamada a la Acción: Reserva tu Servicio de Armado de Roperos Ahora**
-
----
+**Reserva tu Servicio de Armado de Roperos Ahora**

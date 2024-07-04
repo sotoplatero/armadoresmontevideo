@@ -103,13 +103,3 @@ Nuestros técnicos siguen estrictamente las instrucciones del fabricante y utili
 ### Contáctanos
 
 ¿Listo para montar tus muebles de oficina sin complicaciones? Reserva tu servicio hoy mismo y disfruta de la tranquilidad de saber que tu espacio de trabajo estará perfectamente ensamblado y funcional.
-
-**Teléfono:** [Tu número de teléfono]  
-**Correo Electrónico:** [Tu correo electrónico]  
-**Formulario de Contacto:** [Enlace al formulario]
-
-**Botón de Llamada a la Acción: Reserva tu Servicio de Montaje de Muebles de Oficina Ahora**
-
----
-
-Este contenido SEO está diseñado para atraer a clientes que buscan un servicio confiable y profesional para el montaje de muebles de oficina, destacando la seguridad, eficiencia y atención personalizada.

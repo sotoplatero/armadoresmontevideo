@@ -4,11 +4,12 @@ import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar/navbar.astro";
 import "@fontsource-variable/inter/index.css";
 import '@fontsource-variable/inter';
-
-
+import { SITE  } from '../consts';
+import Cta from "@components/cta.astro";
 
 export interface Props {
   title: string;
+  description?: string;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
@@ -18,11 +19,9 @@ const resolvedImageWithDomain = new URL(
   Astro.site
 ).toString();
 
-const { title } = Astro.props;
-
-const makeTitle = title
-  ? title + " | " + "Astroship"
-  : "Astroship - Starter Template for Astro with Tailwind CSS";
+let { title, description } = Astro.props;
+title = !!title ? title + " | " + "Armadores Montevideo" : SITE.TITLE
+description = description || SITE.DESCRIPTION
 ---
 
 <!DOCTYPE html>
@@ -30,17 +29,18 @@ const makeTitle = title
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+
     <meta name="generator" content={Astro.generator} />
 
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
-      title={makeTitle}
-      description="Astroship is a starter website template for Astro built with TailwindCSS."
+      title={title }
+      description={description}
       canonical={canonicalURL}
       twitter={{
-        creator: "@surjithctly",
-        site: "@web3templates",
+        creator: "@sotoplatero",
+        site: "@sotoplatero",
         card: "summary_large_image",
       }}
       openGraph={{
@@ -55,10 +55,12 @@ const makeTitle = title
         },
       }}
     />
+    <script async src="https://umamisoto.vercel.app/script.js" data-website-id="76d3478a-5e3b-4e50-ba65-597d5d7655e1" data-domains="armadoresmontevideo.uy"></script>
   </head>
   <body class="overflow-x-hidden">
     <Navbar />
     <slot />
+    <Cta/>
     <Footer />
     <style is:global>
       /* Improve Page speed */

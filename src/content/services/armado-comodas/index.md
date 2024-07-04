@@ -98,13 +98,3 @@ Nuestros técnicos siguen estrictamente las instrucciones del fabricante y utili
 ### Contáctanos
 
 ¿Listo para armar tu cómoda sin complicaciones? Reserva tu servicio hoy mismo y disfruta de la tranquilidad de saber que tu cómoda estará perfectamente ensamblada y segura.
-
-**Teléfono:** [Tu número de teléfono]  
-**Correo Electrónico:** [Tu correo electrónico]  
-**Formulario de Contacto:** [Enlace al formulario]
-
-**Botón de Llamada a la Acción: Reserva tu Servicio de Armado de Cómodas Ahora**
-
----
-
-Este contenido SEO está diseñado para atraer a clientes que buscan un servicio confiable y profesional para el armado de cómodas, destacando la seguridad, eficiencia y atención personalizada.
