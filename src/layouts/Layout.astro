@@ -8,7 +8,7 @@ import { SITE  } from '../consts';
 
 export interface Props {
   title: string;
-  description: string;
+  description?: string;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
@@ -19,7 +19,7 @@ const resolvedImageWithDomain = new URL(
 ).toString();
 
 let { title, description } = Astro.props;
-title = title + " | " + "Armadores Montevideo"
+title = !!title ?  + title + " | " + "Armadores Montevideo" : SITE.TITLE
 description = description || SITE.DESCRIPTION
 
 ---
@@ -35,12 +35,12 @@ description = description || SITE.DESCRIPTION
 
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
-      title={title + ' | ' +  }
+      title={title }
       description={description}
       canonical={canonicalURL}
       twitter={{
-        creator: "@surjithctly",
-        site: "@web3templates",
+        creator: "@sotoplatero",
+        site: "@sotoplatero",
         card: "summary_large_image",
       }}
       openGraph={{
