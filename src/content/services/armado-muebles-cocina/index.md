@@ -80,8 +80,4 @@ Nuestros técnicos siguen estrictamente las instrucciones del fabricante y utili
 
 ¿Listo para armar tus muebles de cocina sin complicaciones? Reserva tu servicio hoy mismo y disfruta de la tranquilidad de saber que tu cocina estará perfectamente ensamblada.
 
-**Teléfono:** [Tu número de teléfono]  
-**Correo Electrónico:** [Tu correo electrónico]  
-**Formulario de Contacto:** [Enlace al formulario]
-
-**Botón de Llamada a la Acción: Reserva tu Servicio de Armado de Muebles de Cocina Ahora**
+**Reserva tu Servicio de Armado de Muebles de Cocina Ahora**
