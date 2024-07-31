@@ -1,0 +1,122 @@
+
+---
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Pic from "@components/Pic.astro";
+
+// Filter blog entries with 'draft: false' & date before current date
+const services = await getCollection("services");
+
+---
+
+<Layout title="Armado de Muebles a Domicilio - Precios">
+
+    <Container>
+        
+    <article class="prose prose-xl mx-auto mt-24">
+            
+    <h1>Armado de Muebles a Domicilio - Precios</h1>
+    <p>Los precios de armado presentados en esta página son aproximados y pueden variar dependiendo del tipo de mueble y la complejidad del montaje.</p>
+    <p>Para obtener una cotización más precisa <strong>sin compromiso</strong>, es necesario <a href="https://wa.me/59892872427" target="_blank">contactarnos</a> y enviar una foto del mueble que necesita ser armado.</p>
+    <p>Esto nos permitirá evaluar mejor el trabajo y ofrecerle un precio ajustado a sus necesidades específicas.</p>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th class="text-left">Artículo</th>
+                <th class="text-left">Precio (Pesos)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mesa De Luz</td>
+                <td>$ 300</td>
+            </tr>
+            <tr>
+                <td>Silla De Oficina/Silla Comedor Individual</td>
+                <td>$ 300</td>
+            </tr>
+            <tr>
+                <td>Comodas Y Zapateras</td>
+                <td>$ 500</td>
+            </tr>
+            <tr>
+                <td>Mesa Central, Lateral Y Consolas</td>
+                <td>$ 500</td>
+            </tr>
+            <tr>
+                <td>Biblotecas, Racks Y Multiusos</td>
+                <td>$ 600</td>
+            </tr>
+            <tr>
+                <td>Set Respaldo Y Mesas De Luz</td>
+                <td>$ 600</td>
+            </tr>
+            <tr>
+                <td>Camas Simples 1 Y 2 Plazas</td>
+                <td>$ 600</td>
+            </tr>
+            <tr>
+                <td>Box</td>
+                <td>$ 600</td>
+            </tr>
+            <tr>
+                <td>Comedores, Desayunadores Hasta 4 Sillas</td>
+                <td>$ 600</td>
+            </tr>
+            <tr>
+                <td>Tandem</td>
+                <td>$ 649</td>
+            </tr>
+            <tr>
+                <td>Escritorios Componibles, Operativos Y De Hogar</td>
+                <td>$ 600</td>
+            </tr>
+            <tr>
+                <td>Modulos De Cocina O Aereos</td>
+                <td>$ 500</td>
+            </tr>
+            <tr>
+                <td>Camas Marineras Y Tricamas</td>
+                <td>$ 800</td>
+            </tr>
+            <tr>
+                <td>Placares Pequeños</td>
+                <td>$ 600 - 900</td>
+            </tr>
+            <tr>
+                <td>Comodas Y Zapateras Mas De 5 Cajones</td>
+                <td>$ 950</td>
+            </tr>
+            <tr>
+                <td>Comedores Hasta 6 Sillas</td>
+                <td>$ 900</td>
+            </tr>
+            <tr>
+                <td>Set Respaldo Y Mesas De Luz</td>
+                <td>$ 900</td>
+            </tr>
+            <tr>
+                <td>Escritorios Gerenciales Y Reunion</td>
+                <td>$ 900</td>
+            </tr>
+            <tr>
+                <td>Placares Grandes</td>
+                <td>$ 1.000 - 1.500</td>
+            </tr>
+            <tr>
+                <td>Multicamas Y Camas Funcionales</td>
+                <td>$ 1.000</td>
+            </tr>
+            <tr>
+                <td>Comedores Mayores A 6 Sillas</td>
+                <td>$ 1.000</td>
+            </tr>
+        </tbody>
+    </table>
+</article>
+</Container>
+</Layout>
+
