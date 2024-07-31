@@ -1,0 +1,45 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Pic from "@components/Pic.astro";
+
+// Filter blog entries with 'draft: false' & date before current date
+const services = await getCollection("services");
+
+---
+
+<Layout title="Blog">
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title" class="text-left">Blog</Fragment>
+      <Fragment slot="desc">
+      </Fragment>
+    </Sectionhead>
+    <main class="my-16">
+      <ul class="grid gap-16 max-w-4xl mx-auto">
+        {
+          services.map((service, index) => (
+            <li>
+              <a href={`/blog/${service.slug}`}>
+                <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
+                  <Pic src={`/src/content/services/${service.slug}/image`} alt={service.data.title}/>
+                  <div>
+                    <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+                      {service.data.category}
+                    </span>
+
+                    <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
+                      {service.data.title}
+                    </h2>
+                  </div>
+                </div>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </main>
+  </Container>
+</Layout>
