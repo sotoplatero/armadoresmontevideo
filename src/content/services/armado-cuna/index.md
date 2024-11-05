@@ -1,5 +1,5 @@
 ---
-title: Armado de Cunas en Montevideo
+title: Armador de Cunas en Montevideo
 description: Servicio profesional de armado de cunas. Montaje seguro y eficiente. Reserva tu cita hoy y asegúrate de una cuna perfectamente ensamblada.
 menu: Armado de Cunas
 ---

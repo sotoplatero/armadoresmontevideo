@@ -1,5 +1,5 @@
 ---
-title: Servicio Profesional de Armado de Muebles de Cocina en Montevideo
+title: Armador de Muebles de Cocina en Montevideo
 description: Armado profesional de muebles de cocina en Montevideo, montaje de armarios de cocina, bajomesada, aereos, alacenas, encimeras. Agenda hoy mismo.
 menu: Armado de Muebles de Cocina
 ---

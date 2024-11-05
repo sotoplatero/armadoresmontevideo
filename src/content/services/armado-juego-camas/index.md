@@ -1,5 +1,5 @@
 ---
-title: Armado Profesional de Camas y Accesorios
+title: Armador de Camas y Accesorios
 description: Servicio profesional de armado de camas y accesorios en Montevideo. Montaje seguro y eficiente. Reserva tu cita hoy y disfruta de tus muebles perfectamente ensamblados.
 menu: Armado de Camas
 ---
@@ -69,7 +69,7 @@ Sí, además de camas, también podemos armar otros muebles como armarios, escri
 Puedes reservar nuestro servicio a través de nuestro formulario en línea, llamándonos por teléfono o enviándonos un correo electrónico. Te confirmaremos la cita rápidamente.
 
 **9. ¿Cuál es el costo del servicio de armado de camas y accesorios?**  
-El costo varía según el tipo de cama y la complejidad del montaje. Contáctanos para obtener un presupuesto personalizado.
+El costo varía según el tipo de cama y la complejidad del montaje. [Revise nuestros precios](/precios) y contáctanos para obtener un presupuesto personalizado.
 
 **10. ¿Qué medidas de seguridad toman durante el montaje?**  
 Nuestros técnicos siguen estrictamente las instrucciones del fabricante y utilizan herramientas adecuadas para asegurar que la cama y los accesorios estén montados de manera segura y estable. Realizamos una inspección final para garantizar la seguridad del producto.

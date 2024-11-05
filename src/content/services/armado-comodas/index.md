@@ -1,6 +1,6 @@
 ---
-title: Servicio Profesional de Armado de Cómodas en Montevideo
-description: Armado profesional de cómodas en Montevideo. Montaje seguro y eficiente. Reserva tu cita hoy y disfruta de tu cómoda perfectamente ensamblada.
+title: Armador de Cómodas en Montevideo
+description: Servicio profesional de armado de cómodas en Montevideo. Ensamblaje seguro y eficiente. Reserva tu cita hoy y disfruta de una cómoda perfectamente montada.
 menu: Armado de Cómodas
 ---
 

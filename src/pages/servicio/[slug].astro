@@ -3,19 +3,27 @@ import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import FormatImage from "@components/FormatImage.astro";
+import Cta from "@components/cta.astro";
 
 // Generate a new path for every collection entry
 export async function getStaticPaths() {
   const services = await getCollection("services");
   return services.map((entry) => ({
     params: { slug: entry.slug },
-    props: { entry },
+    props: { entry, services },
   }));
 }
 
+// Function to get two random services
+function getRandomServices(services, count = 2) {
+  const shuffled = services.sort(() => 0.5 - Math.random());
+  return shuffled.slice(0, count);
+}
+
 // Get the entry directly from the prop on render
-const { entry } = Astro.props;
+const { entry, services } = Astro.props;
 const { Content } = await entry.render();
+const randomServices = getRandomServices(services);
 ---
 
 <Layout title={entry.data.title}>
@@ -38,5 +46,17 @@ const { Content } = await entry.render();
         Todos Los Servicios &rarr;
       </a>
     </div>
+    <div class="mt-16">
+      <h2 class="text-2xl font-bold">Servicios Relacionados</h2>
+      <div class="grid sm:grid-cols-2 gap-4 mt-4">
+        {randomServices.map(service => (
+          <a href={`/servicio/${service.slug}`} class="block p-4 border rounded-md hover:bg-gray-100 transition">
+            <h3 class="text-xl font-semibold">{service.data.menu}</h3>
+            <p>{service.data.description}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+    <Cta/>
   </Container>
 </Layout>

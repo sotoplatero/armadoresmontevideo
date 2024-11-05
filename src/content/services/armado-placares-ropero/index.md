@@ -1,5 +1,5 @@
 ---
-title: Servicio Profesional de Armado de Roperos en Montevideo
+title: Armador de Roperos en Montevideo
 description: Armado profesional de roperos en Montevideo. Montaje seguro y eficiente. Reserva tu cita hoy y disfruta de tu ropero perfectamente ensamblado.
 menu: Armado de Roperos/Placard
 ---
@@ -86,7 +86,7 @@ Sí, podemos armar una amplia variedad de roperos, incluyendo modulares, empotra
 Puedes reservar nuestro servicio a través de nuestro formulario en línea, llamándonos por teléfono o enviándonos un correo electrónico. Te confirmaremos la cita rápidamente.
 
 **9. ¿Cuál es el costo del servicio de armado de roperos?**  
-El costo varía según el tipo y la cantidad de roperos. Contáctanos para obtener un presupuesto personalizado.
+El costo varía según el tipo y la cantidad de roperos. [Revise nuestros precios](/precios) y contáctanos para obtener un presupuesto personalizado.
 
 **10. ¿Qué medidas de seguridad toman durante el montaje?**  
 Nuestros técnicos siguen estrictamente las instrucciones del fabricante y utilizan herramientas adecuadas para asegurar que el ropero esté montado de manera segura y estable. Realizamos una inspección final para garantizar la seguridad del producto.
