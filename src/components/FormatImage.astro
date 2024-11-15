@@ -16,7 +16,7 @@ const srcPath = Object.keys(images).filter(prop => prop.startsWith(src));
 ---
 
 { srcPath.length &&
-  <div class="aspect-video overflow-hidden">
+  <div class="aspect-video overflow-hidden rounded">
     <Image src={images[srcPath[0]]()} alt={alt} class="aspect-video object-cover" width="1200" height="600" class="rounded"/>
   </div>
 }

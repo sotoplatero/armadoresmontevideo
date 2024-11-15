@@ -37,10 +37,10 @@ Sí, ofrecemos una garantía sobre el servicio de armado. Si hay algún problema
 Sí, puedes cambiar o cancelar tu cita con al menos 24 horas de anticipación sin cargo adicional. Para cambios o cancelaciones de última hora, pueden aplicarse tarifas.
 
 ### 10. ¿Cómo puedo pagar por el servicio?
-Aceptamos varios métodos de pago, incluyendo tarjetas de crédito, débito y transferencias bancarias. El pago se realiza al finalizar el servicio.
+Por el momento solo aceptamos efectivo. El pago se realiza al finalizar el servicio.
 
 ### 11. ¿Cómo puedo programar un servicio de armado de muebles?
-Puedes programar una cita a través de nuestro sitio web, por teléfono o enviando un correo electrónico a nuestro servicio de atención al cliente.
+Puedes programar una cita a través de nuestro sitio web directamente en [whatsapp](https://wa.me/59892872427).
 
 ### 12. ¿Ofrecen servicios adicionales como desmontaje o reubicación de muebles?
 Sí, también ofrecemos servicios de desmontaje y reubicación de muebles. Estos servicios pueden ser solicitados al programar tu cita.
