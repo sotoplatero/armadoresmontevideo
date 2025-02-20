@@ -10,7 +10,7 @@ Conocemos la importancia de un buen descanso y la funcionalidad en tu dormitorio
 
 ---
 
-### ¿Por Qué Elegir Nuestro Servicio de Armado de Camas y Accesorios?
+## ¿Por Qué Elegir Nuestro Servicio de Armado de Camas y Accesorios?
 
 **Seguridad y Estabilidad:** 
 Nuestros técnicos están altamente capacitados para asegurar que cada pieza de la cama y sus accesorios estén perfectamente ensamblados, proporcionando un entorno seguro y estable para tu descanso.
@@ -26,7 +26,7 @@ Nos adaptamos a tus horarios y necesidades, ofreciendo un servicio flexible que 
 
 ---
 
-### ¿Cómo Funciona Nuestro Servicio?
+## ¿Cómo Funciona Nuestro Servicio?
 
 1. **Reserva tu Cita:**
    Utiliza nuestro formulario en línea o llámanos para agendar una cita en el momento que más te convenga.
@@ -42,7 +42,21 @@ Nos adaptamos a tus horarios y necesidades, ofreciendo un servicio flexible que 
 
 ---
 
-### Preguntas Frecuentes (FAQs)
+## Nuestros Precios
+
+
+| Artículo                          | Precio     |
+|-----------------------------------|-----------|
+| Camas Simples 1 Y 2 Plazas        | $ 600     |
+| Camas Marineras Y Tricamas        | $ 800     |
+| Cuchetas                          | $ 1200    |
+| Multicamas Y Camas Funcionales    | $ 1000    |
+
+[Ver todos nuestros precios](/precios){: .text-blue-500 .hover:underline }
+
+---
+
+## Preguntas Frecuentes (FAQs)
 
 **1. ¿Qué incluye el servicio de armado de camas y accesorios?**  
 Nuestro servicio incluye el montaje completo de la cama y cualquier accesorio relacionado, como cabeceras, mesitas de noche, lámparas de lectura, y más, siguiendo las instrucciones del fabricante.
@@ -76,6 +90,6 @@ Nuestros técnicos siguen estrictamente las instrucciones del fabricante y utili
 
 ---
 
-### Contáctanos
+## Contáctanos
 
 ¿Listo para armar tu cama y accesorios sin complicaciones? Reserva tu servicio hoy mismo y disfruta de la tranquilidad de saber que tus muebles estarán perfectamente ensamblados.

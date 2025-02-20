@@ -42,6 +42,20 @@ Nos adaptamos a tus horarios y necesidades, ofreciendo un servicio flexible que 
 
 ---
 
+## Nuestros Precios
+
+| Artículo                                      | Precio       |
+|-----------------------------------------------|-------------|
+| Comedores, Desayunadores Hasta 4 Sillas      | $ 600       |
+| Juego de Comedor 4 sillas                    | $ 850       |
+| Juego de Comedor 6 sillas                    | $ 1200      |
+| Juego de Comedor mayor a 6 sillas            | $ 1500      |
+| Comedores Hasta 6 Sillas                     | $ 900       |
+
+[Ver todos nuestros precios](/precios){: .text-blue-500 .hover:underline }
+
+---
+
 ## Preguntas Frecuentes (FAQs)
 
 **1. ¿Qué incluye el servicio de ensamblado de juegos de comedor?**  

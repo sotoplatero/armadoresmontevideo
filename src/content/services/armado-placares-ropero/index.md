@@ -40,6 +40,19 @@ Nos adaptamos a tus horarios y necesidades, ofreciendo un servicio flexible que 
 
 ---
 
+## Nuestros Precios
+
+| Artículo                              | Precio        |
+|---------------------------------------|--------------|
+| Placares Pequeños                     | $ 600 - 900  |
+| Placares Grandes                      | $ 1.000 - 1.500 |
+| Cómodas y Cajoneras (hasta 5 cajones)  | $ 600        |
+| Cómodas y Cajoneras (6 o más cajones)  | $ 900        |
+
+[Ver todos nuestros precios](/precios){: .text-blue-500 .hover:underline }
+
+---
+
 ## Nuestros Servicios
 
 - **Roperos Modulares:**
