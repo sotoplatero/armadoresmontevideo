@@ -52,7 +52,7 @@ Nos adaptamos a tus horarios y necesidades, ofreciendo un servicio flexible que 
 | Juego de Comedor mayor a 6 sillas            | $ 1500      |
 | Comedores Hasta 6 Sillas                     | $ 900       |
 
-[Ver todos nuestros precios](/precios){: .text-blue-500 .hover:underline }
+[Ver todos nuestros precios](/precios)
 
 ---
 

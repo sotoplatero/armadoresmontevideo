@@ -49,7 +49,7 @@ Nos adaptamos a tus horarios y necesidades, ofreciendo un servicio flexible que 
 | Cómodas y Cajoneras (hasta 5 cajones)  | $ 600        |
 | Cómodas y Cajoneras (6 o más cajones)  | $ 900        |
 
-[Ver todos nuestros precios](/precios){: .text-blue-500 .hover:underline }
+[Ver todos nuestros precios](/precios)
 
 ---
 

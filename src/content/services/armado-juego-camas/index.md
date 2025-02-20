@@ -52,7 +52,7 @@ Nos adaptamos a tus horarios y necesidades, ofreciendo un servicio flexible que 
 | Cuchetas                          | $ 1200    |
 | Multicamas Y Camas Funcionales    | $ 1000    |
 
-[Ver todos nuestros precios](/precios){: .text-blue-500 .hover:underline }
+[Ver todos nuestros precios](/precios)
 
 ---
 
