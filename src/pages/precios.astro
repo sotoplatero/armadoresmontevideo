@@ -3,8 +3,8 @@ import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import CTA from "@components/cta.astro";
-import Sectionhead from "@components/sectionhead.astro";
-import Pic from "@components/Pic.astro";
+// import Sectionhead from "@components/sectionhead.astro";
+// import Pic from "@components/Pic.astro";
 
 // Filter blog entries with 'draft: false' & date before current date
 const services = await getCollection("services");
@@ -126,6 +126,10 @@ const services = await getCollection("services");
             </tr>
             <tr>
                 <td>Cuchetas</td>
+                <td>$ 1200</td>
+            </tr>
+            <tr>
+                <td>Rack TV 60"</td>
                 <td>$ 1200</td>
             </tr>
             <tr>
