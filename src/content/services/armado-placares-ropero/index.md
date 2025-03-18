@@ -42,12 +42,16 @@ Nos adaptamos a tus horarios y necesidades, ofreciendo un servicio flexible que 
 
 ## Nuestros Precios
 
-| Artículo                              | Precio        |
-|---------------------------------------|--------------|
-| Placares Pequeños                     | $ 600 - 900  |
-| Placares Grandes                      | $ 1.000 - 1.500 |
-| Cómodas y Cajoneras (hasta 5 cajones)  | $ 600        |
-| Cómodas y Cajoneras (6 o más cajones)  | $ 900        |
+| Artículo                                           | Precio  |
+|----------------------------------------------------|---------|
+| Placard 2 puertas con cajones                     | $800    |
+| Placard 4 puertas con cajones                     | $1200   |
+| Placard 6 puertas con cajones                     | $1400   |
+| Placard 8 puertas con cajones                     | $1600   |
+| Placard 2 puertas corredizas y cajones            | $1200   |
+| Placard 3 puertas corredizas con espejo y cajones | $1800   |
+| Cómodas y Cajoneras (hasta 5 cajones)             | $ 600   |
+| Cómodas y Cajoneras (6 o más cajones)             | $ 900   |
 
 [Ver todos nuestros precios](/precios)
 
