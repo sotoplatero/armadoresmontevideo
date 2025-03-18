@@ -58,10 +58,6 @@ export const neighborhoods = [
         "slug": "parque-rodo"
       },
       {
-        "name": "Villa Biarritz",
-        "slug": "villa-biarritz"
-      },
-      {
         "name": "Tres Cruces",
         "slug": "tres-cruces"
       },
@@ -74,45 +70,17 @@ export const neighborhoods = [
         "slug": "aguada"
       },
       {
-        "name": "Capurro",
-        "slug": "capurro"
-      },
-      {
-        "name": "La Teja",
-        "slug": "la-teja"
-      },
-      {
-        "name": "Sayago",
-        "slug": "sayago"
-      },
-      {
         "name": "Prado",
         "slug": "prado"
-      },
-      {
-        "name": "Paso de la Arena",
-        "slug": "paso-de-la-arena"
       },
       {
         "name": "Pajas Blancas",
         "slug": "pajas-blancas"
       },
       {
-        "name": "Piedras Blancas",
-        "slug": "piedras-blancas"
-      },
-      {
-        "name": "Manga",
-        "slug": "manga"
-      },
-      {
         "name": "Colón",
         "slug": "colon"
       },
-      {
-        "name": "Casabó",
-        "slug": "casabo"
-      }
     ]
   
   
