@@ -10,22 +10,63 @@ import Cta from "@components/cta.astro";
 export interface Props {
   title: string;
   description?: string;
+  schema?: Record<string, any>;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+
+const isHome = Astro.url.pathname === "/" || Astro.url.pathname === "";
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Armadores Montevideo",
+  "image": "https://armadoresmontevideo.uy/opengraph.jpg",
+  "description": "Servicio profesional de armado de muebles a domicilio en Montevideo. Montaje de roperos, camas, escritorios, estanterías y más.",
+  "@id": "https://armadoresmontevideo.uy/#organization",
+  "url": "https://armadoresmontevideo.uy",
+  "telephone": "+598-92-872-427",
+  "email": "soto.platero@gmail.com",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Perez Castellano 1489",
+    "addressLocality": "Montevideo",
+    "addressRegion": "Montevideo",
+    "postalCode": "11000",
+    "addressCountry": "UY"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -34.9067,
+    "longitude": -56.2122
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "09:00",
+      "closes": "19:00"
+    }
+  ],
+  "areaServed": [
+    { "@type": "City", "name": "Montevideo" }
+  ],
+  "serviceType": "Armado de Muebles"
+};
 
 const resolvedImageWithDomain = new URL(
   "/opengraph.jpg",
   Astro.site
 ).toString();
 
-let { title, description } = Astro.props;
+let { title, description, schema } = Astro.props;
 title = !!title ? title + " | " + "Armadores Montevideo" : SITE.TITLE
 description = description || SITE.DESCRIPTION
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -33,9 +74,14 @@ description = description || SITE.DESCRIPTION
 
     <meta name="generator" content={Astro.generator} />
 
-    <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
+    <!-- Geo meta tags para SEO local -->
+    <meta name="geo.region" content="UY-MO" />
+    <meta name="geo.placename" content="Montevideo" />
+    <meta name="geo.position" content="-34.9067;-56.2122" />
+    <meta name="ICBM" content="-34.9067, -56.2122" />
+
     <SEO
-      title={title }
+      title={title}
       description={description}
       canonical={canonicalURL}
       twitter={{
@@ -50,9 +96,20 @@ description = description || SITE.DESCRIPTION
           title: title,
           image: resolvedImageWithDomain,
         },
-
+        optional: {
+          locale: "es_UY",
+        },
       }}
     />
+    {isHome && (
+      <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
+    )}
+    {schema && Array.isArray(schema) && schema.map(s => (
+      <script type="application/ld+json" set:html={JSON.stringify(s)} />
+    ))}
+    {schema && !Array.isArray(schema) && (
+      <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    )}
     <script async src="https://umamisoto.vercel.app/script.js" data-website-id="76d3478a-5e3b-4e50-ba65-597d5d7655e1" data-domains="armadoresmontevideo.uy"></script>
   </head>
   <body class="overflow-x-hidden">

@@ -1,17 +1,15 @@
 ---
 import { Picture } from "astro:assets";
 import heroImage from "assets/hero2.jpg";
-import Link from "@components/ui/link.astro";
 import BtnWhatsapp from "./ui/BtnWhatsapp.astro";
-// import { Icon } from "astro-icon/components";
 ---
 
 <main
-  class="grid lg:grid-cols-2 place-items-center py-20 md:pt-12 md:pb-24">
-  <div class="py-6 md:order-1 hidden md:block ">
+  class="grid lg:grid-cols-2 place-items-center py-16 md:pt-12 md:pb-24">
+  <div class="py-6 md:order-1 hidden md:block">
     <Picture
       src={heroImage}
-      alt="Astronaut in the air"
+      alt="Armador de muebles profesional en Montevideo"
       class="aspect-[4/3] object-cover rounded-lg"
       widths={[200, 400, 600]}
       sizes="(max-width: 800px) 100vw, 620px"
@@ -21,15 +19,18 @@ import BtnWhatsapp from "./ui/BtnWhatsapp.astro";
   </div>
   <div>
     <h1
-      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter !leading-[0.8]">
-       Armadores de Muebles en Montevideo
+      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter !leading-[0.85]">
+      Armado de Muebles a Domicilio en Montevideo
     </h1>
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
-      Expertos en Montaje de Muebles para Hogar y Oficina. Rápido, Eficiente y Sin Estrés. Consúltanos sin compromiso.
+      Armamos roperos, camas, escritorios, comedores y más en tu casa. Llegamos con las herramientas, lo dejamos listo y te damos garantía.
     </p>
-    <div class="mt-6 flex flex-col sm:flex-row gap-3">
-      <BtnWhatsapp />    
-
+    <div class="mt-6 flex flex-col sm:flex-row gap-3 items-start">
+      <BtnWhatsapp />
+      <a href="/precios" class="text-lg inline-flex items-center text-slate-700 font-medium py-4 px-8 rounded-full border border-slate-300 hover:border-slate-400 transition duration-300">
+        Ver precios
+      </a>
     </div>
+    <p class="mt-4 text-sm text-slate-400">+500 muebles armados en Montevideo</p>
   </div>
 </main>

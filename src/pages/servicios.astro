@@ -1,14 +1,18 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
-import Sectionhead from "@components/sectionhead.astro";
-import Pic from "@components/Pic.astro";
+import PageHero from "@components/PageHero.astro";
 import Services from '@components/services.astro'
 
 ---
 
-<Layout title="Blog">
+<Layout title="Servicios de Armado de Muebles" description="Conoce todos nuestros servicios de armado de muebles a domicilio en Montevideo. Roperos, camas, escritorios, estanterías y más. Servicio profesional y garantizado.">
   <Container>
+    <PageHero
+      title="Servicios de Armado de Muebles"
+      description="Armamos todo tipo de muebles a domicilio en Montevideo. Roperos, camas, escritorios, comedores, estanterías, muebles de cocina y más."
+    />
+
     <Services/>
   </Container>
 </Layout>

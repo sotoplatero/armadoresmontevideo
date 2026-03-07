@@ -77,6 +77,12 @@ Si el daño es significativo o no tienes experiencia en restauración, es recome
 
 Cuidar y mantener tus muebles armados no tiene que ser una tarea abrumadora. Con estos consejos prácticos y fáciles de seguir, podrás asegurarte de que tus muebles se mantengan en perfectas condiciones durante muchos años. Recuerda que la limpieza regular, la protección adecuada y las reparaciones oportunas son clave para prolongar la vida útil de tus muebles.
 
-Tu apoyo puede marcar una gran diferencia en nuestro progreso e innovación. ¡Gracias por leer!
+Si necesitás que tus muebles sean armados correctamente desde el inicio, un [servicio de armado profesional](/servicios) garantiza la estabilidad y durabilidad del mueble. Conocé nuestros servicios de armado de [roperos](/servicio/armado-placares-ropero), [cómodas](/servicio/armado-comodas) y [estanterías](/servicio/armado-multiusos-estanteria).
+
+---
+
+## ¿Necesitás ayuda con tus muebles?
+
+En **Armadores Montevideo** armamos tus muebles a domicilio de forma profesional. [Ver todos los servicios](/servicios) o escribinos por [WhatsApp](https://wa.me/59892872427) para coordinar.
 
 

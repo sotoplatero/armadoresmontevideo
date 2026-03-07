@@ -1,0 +1,61 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon/components";
+
+const pains = [
+  {
+    icon: "bx:bxs-error-circle",
+    title: "Instrucciones incomprensibles",
+    description: "Diagramas que no tienen sentido, pasos que no coinciden con las piezas y letras que no se leen.",
+  },
+  {
+    icon: "bx:bxs-wrench",
+    title: "No tenés las herramientas",
+    description: "Necesitás un taladro, una llave Allen que no vino en la caja, o un destornillador que no es el tuyo.",
+  },
+  {
+    icon: "bx:bxs-time-five",
+    title: "Horas y horas perdidas",
+    description: "Lo que pensabas que iba a ser una hora termina siendo toda la tarde. Y todavía te faltan los cajones.",
+  },
+  {
+    icon: "bx:bxs-error-alt",
+    title: "Mueble inestable o torcido",
+    description: "Terminaste pero algo no cierra bien. Las puertas no alinean, los cajones se traban, se tambalea.",
+  },
+];
+---
+
+<div class="bg-slate-50 -mx-5 px-5 py-16 md:py-20 rounded-lg">
+  <div class="text-center max-w-2xl mx-auto">
+    <h2 class="text-3xl lg:text-4xl font-bold lg:tracking-tight">
+      ¿Te llegó el mueble y no sabés por dónde empezar?
+    </h2>
+    <p class="text-lg mt-4 text-slate-600">
+      Armar muebles parece fácil hasta que abrís la caja.
+    </p>
+  </div>
+
+  <div class="grid sm:grid-cols-2 gap-8 mt-12 max-w-4xl mx-auto">
+    {pains.map((item) => (
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-red-100 rounded-full p-2 w-8 h-8 shrink-0">
+          <Icon class="text-red-500" name={item.icon} />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">{item.title}</h3>
+          <p class="text-slate-500 mt-1 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <div class="text-center mt-12">
+    <p class="text-xl font-semibold text-slate-800">
+      No tiene por qué ser así.
+    </p>
+    <p class="text-slate-600 mt-2">
+      Mandanos una foto del mueble, te damos el precio y lo armamos nosotros.
+    </p>
+  </div>
+</div>

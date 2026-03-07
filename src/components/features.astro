@@ -4,44 +4,44 @@ import { Icon } from "astro-icon/components";
 
 const features = [
   {
-    title: "Profesionalismo y Experiencia",
-    description:"Técnicos capacitados con años de experiencia aseguran un ensamblaje preciso y seguro.",
-    icon: "bx:bxs-briefcase",
+    title: "Experiencia real",
+    description: "Armamos muebles todos los días. Sabemos cómo funcionan las piezas y cómo resolver los problemas que aparecen.",
+    icon: "bx:bxs-wrench",
   },
   {
-    title: "Ahorro de Tiempo y Esfuerzo",
-    description: "Nos encargamos del montaje completo, permitiéndote disfrutar de tus muebles sin estrés.",
-    icon: "bx:bxs-window-alt",
+    title: "Rápido y sin vueltas",
+    description: "Llegamos con todo, armamos y nos vamos. La mayoría de los muebles quedan listos en 1-2 horas.",
+    icon: "bx:bxs-time-five",
   },
   {
-    title: "Calidad y Seguridad",
-    description: "Utilizamos herramientas profesionales para garantizar que tus muebles sean montados de manera segura y estable. ",
-    icon: "bx:bxs-data",
+    title: "Mueble firme y seguro",
+    description: "Cada tornillo en su lugar, puertas que cierran bien, cajones que corren. Lo revisamos todo antes de irnos.",
+    icon: "bx:bxs-shield-alt-2",
   },
   {
-    title: "Atención Personalizada.",
-    description: "Nos adaptamos a tus horarios y necesidades, ofreciendo un servicio flexible y conveniente.",
-    icon: "bx:bxs-bot",
+    title: "Nos adaptamos a vos",
+    description: "Coordinamos el día y horario que te quede mejor. Trabajamos de lunes a sábado.",
+    icon: "bx:bxs-calendar-check",
   },
   {
-    title: "Garantía de Satisfacción.",
-    description: "Si no estás completamente satisfecho, volveremos a solucionar cualquier problema sin costo adicional.",
-    icon: "bx:bxs-file-find",
+    title: "Garantía incluida",
+    description: "Si algo no queda bien, volvemos y lo arreglamos sin costo. Así de simple.",
+    icon: "bx:bxs-badge-check",
   },
   {
-    title: "Versatilidad",
-    description: "Montamos todo tipo de muebles, desde roperos y camas hasta estanterías y muebles multiusos.",
-    icon: "bx:bxs-user",
+    title: "Todo tipo de muebles",
+    description: "Roperos, camas, escritorios, comedores, estanterías, muebles de cocina. De cualquier marca.",
+    icon: "bx:bxs-home",
   },
 ];
 ---
 
 <div class="mt-16 md:mt-0 text-center">
-  <h2 class="text-3xl lg:text-5xl font-bold lg:tracking-tight">
-    <span>¿Por Qué Elegir ArmadoresMontevideo?</span>
+  <h2 class="text-3xl lg:text-4xl font-bold lg:tracking-tight">
+    Cómo trabajamos
   </h2>
   <p class="text-lg mt-4 text-slate-600">
-    Beneficios y Características Destacadas de Nuestros Servicios de Armado de Muebles a Domicilio
+    Mandás la foto, te damos el precio, coordinamos y listo.
   </p>
 </div>
 
@@ -49,11 +49,11 @@ const features = [
   {
     features.map((item) => (
       <div class="flex gap-4 items-start">
-        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+        <div class="mt-1 bg-black rounded-full p-2 w-8 h-8 shrink-0">
           <Icon class="text-white" name={item.icon} />
         </div>
         <div>
-          <h3 class="font-semibold text-xl">{item.title}</h3>{" "}
+          <h3 class="font-semibold text-xl">{item.title}</h3>
           <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
         </div>
       </div>

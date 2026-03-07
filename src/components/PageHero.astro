@@ -1,0 +1,65 @@
+---
+import { Picture } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import defaultHeroImage from "assets/hero2.jpg";
+import BtnWhatsapp from "./ui/BtnWhatsapp.astro";
+
+interface Props {
+  title: string;
+  description: string;
+  image?: ImageMetadata;
+  badge?: string;
+  showPriceLink?: boolean;
+  breadcrumbs?: { label: string; href?: string }[];
+}
+
+const { title, description, image, badge, showPriceLink = true, breadcrumbs } = Astro.props;
+const heroImage = image || defaultHeroImage;
+---
+
+<div class="grid lg:grid-cols-2 place-items-center gap-10 lg:gap-16 py-16 md:pt-12 md:pb-24">
+  <div class="py-6 md:order-1 hidden md:block">
+    <Picture
+      src={heroImage}
+      alt={title}
+      class="aspect-[4/3] object-cover rounded-lg"
+      widths={[200, 400, 600]}
+      sizes="(max-width: 800px) 100vw, 620px"
+      loading="eager"
+      format="avif"
+    />
+  </div>
+  <div>
+    {breadcrumbs && (
+      <nav class="text-sm text-slate-400 mb-4">
+        {breadcrumbs.map((crumb, i) => (
+          <>
+            {i > 0 && <span class="mx-1.5">/</span>}
+            {crumb.href
+              ? <a href={crumb.href} class="hover:text-slate-600">{crumb.label}</a>
+              : <span class="text-slate-500">{crumb.label}</span>
+            }
+          </>
+        ))}
+      </nav>
+    )}
+    <h1
+      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter !leading-[0.85]">
+      {title}
+    </h1>
+    <p class="text-lg mt-4 text-slate-600 max-w-xl">
+      {description}
+    </p>
+    <div class="mt-6 flex flex-col sm:flex-row gap-3 items-start">
+      <BtnWhatsapp />
+      {showPriceLink && (
+        <a href="/precios" class="text-lg inline-flex items-center text-slate-700 font-medium py-4 px-8 rounded-full border border-slate-300 hover:border-slate-400 transition duration-300">
+          Ver precios
+        </a>
+      )}
+    </div>
+    {badge && (
+      <p class="mt-4 text-sm text-slate-400">{badge}</p>
+    )}
+  </div>
+</div>

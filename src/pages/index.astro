@@ -2,19 +2,88 @@
 import Container from "@components/container.astro";
 import Cta from "@components/cta.astro";
 import Features from "@components/features.astro";
-import Hero from "@components/hero.astro";
-import Logos from "@components/logos.astro";
+import PageHero from "@components/PageHero.astro";
+import Pain from "@components/pain.astro";
 import Services from "@components/services.astro";
 import Layout from "@layouts/Layout.astro";
 import FAQ from "@components/FAQ.md";
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué tipos de muebles pueden armar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ofrecemos servicios de armado para mesas, sillas, camas, literas, sofás, escritorios, estanterías, armarios, vestidores y muebles de exterior."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Necesito proporcionar herramientas para el armado?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, nuestros técnicos llevan todas las herramientas necesarias para el armado de los muebles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo toma armar un mueble?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El tiempo varía dependiendo del tipo y la complejidad del mueble. Generalmente, el armado de muebles sencillos puede tomar entre 30 minutos a 1 hora, mientras que los más complejos pueden tomar varias horas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuáles son los costos del servicio de armado de muebles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Los costos varían según el tipo de mueble y la complejidad del armado. Proporcionamos una cotización previa basada en estos factores."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Ofrecen garantía sobre el trabajo realizado?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, ofrecemos una garantía sobre el servicio de armado. Si hay algún problema con el montaje dentro de los primeros 30 días, volveremos a revisar y solucionar el problema sin costo adicional."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cubren toda la ciudad de Montevideo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, ofrecemos nuestros servicios en todos los barrios de Montevideo: Centro, Pocitos, Carrasco, Ciudad Vieja, Punta Carretas, Malvín, Buceo, Parque Rodó, Tres Cruces, Cordón, Aguada, Prado y más."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo puedo programar un servicio de armado de muebles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Puedes programar una cita a través de nuestro sitio web o directamente por WhatsApp."
+      }
+    }
+  ]
+};
 ---
 
 <Layout title="">
   <Container class="space-y-24">
-    <Hero />
+    <PageHero
+      title="Armado de Muebles a Domicilio en Montevideo"
+      description="Armamos roperos, camas, escritorios, comedores y más en tu casa. Llegamos con las herramientas, lo dejamos listo y te damos garantía."
+      badge="+500 muebles armados en Montevideo"
+    />
+    <Pain />
     <Features />
     <Services/>
     <FAQ />
     <Cta />
   </Container>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
 </Layout>

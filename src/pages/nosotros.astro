@@ -5,7 +5,7 @@ import CTA from "@components/cta.astro";
 ---
 
 
-<Layout title="About">
+<Layout title="Sobre Nosotros" description="Conoce al equipo de Armadores Montevideo. Profesionales dedicados al armado de muebles a domicilio con experiencia, compromiso y atención personalizada.">
 <Container >
 
     <article class="prose prose-lg mx-auto mt-24">
@@ -18,7 +18,25 @@ import CTA from "@components/cta.astro";
 
         <p>Para nosotros, cada proyecto es una oportunidad de demostrar nuestra experiencia y dedicación. Nos aseguramos de que cada pieza esté perfectamente ensamblada y lista para usar, transformando tu espacio con comodidad y estilo.</p>
 
-        <p>Si tienes alguna pregunta o necesitas un servicio personalizado, no dudes en contactarnos. Estamos aquí para ayudarte y convertir tus muebles en nuestro próximo gran proyecto de construcción.</p>
+        <p>Si tienes alguna pregunta o necesitas un servicio personalizado, no dudes en <a href="/contacto">contactarnos</a>. Estamos aquí para ayudarte y convertir tus muebles en nuestro próximo gran proyecto de construcción.</p>
+
+        <h2>Nuestros Valores</h2>
+        <div class="not-prose grid sm:grid-cols-3 gap-6 my-8">
+            <div class="text-center p-4 rounded-lg bg-slate-50">
+                <p class="text-3xl font-bold text-indigo-600">500+</p>
+                <p class="text-sm text-slate-600 mt-1">Muebles armados</p>
+            </div>
+            <div class="text-center p-4 rounded-lg bg-slate-50">
+                <p class="text-3xl font-bold text-indigo-600">100%</p>
+                <p class="text-sm text-slate-600 mt-1">Garantía de satisfacción</p>
+            </div>
+            <div class="text-center p-4 rounded-lg bg-slate-50">
+                <p class="text-3xl font-bold text-indigo-600">Montevideo</p>
+                <p class="text-sm text-slate-600 mt-1">Cobertura en toda la ciudad</p>
+            </div>
+        </div>
+
+        <p>Conoce todos nuestros <a href="/servicios">servicios de armado</a> o consulta nuestros <a href="/precios">precios</a>.</p>
     </article>
 
 </Container>

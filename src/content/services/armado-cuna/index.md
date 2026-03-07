@@ -1,60 +1,57 @@
 ---
 title: Armador de Cunas en Montevideo
-description: Servicio profesional de armado de cunas. Montaje seguro y eficiente. Reserva tu cita hoy y asegúrate de una cuna perfectamente ensamblada.
+description: Servicio profesional de armado de cunas a domicilio en Montevideo. Montaje seguro y eficiente con garantía de satisfacción. Reserva tu cita hoy y asegúrate de que la cuna de tu bebé quede perfectamente ensamblada.
 menu: Armado de Cunas
 ---
 
-Bienvenido a **ArmadoresMontevideo**. Somos un equipo de entusiastas trabajadores que brindan una solución confiable para el armado de cunas en Montevideo. Armar una cuna puede ser estresante y complicado, y a menudo requiere herramientas que no tienes en casa. Pero no te preocupes, solo con [contactarnos](#contacto), todo queda resuelto.
+Armar una cuna puede ser más complicado de lo que parece, y cuando se trata de la seguridad de tu bebé, no da para improvisar. Nosotros nos encargamos del armado a domicilio en Montevideo.
 
-Sabemos lo importante que es la seguridad y comodidad de tu bebé, por eso nos especializamos en ofrecer un servicio profesional y eficiente de montaje de cunas. Nuestros expertos se aseguran de que cada tornillo esté en su lugar y cada parte esté bien ensamblada para garantizar que tu pequeño descanse seguro.
+Llegamos con las herramientas, armamos la cuna siguiendo las instrucciones del fabricante y nos aseguramos de que quede firme y segura. También armamos cambiadores, muebles de bebé y sillas altas.
 
-## ¿Por Qué Elegir Nuestro Servicio de Armado de Cuna?
+---
 
-**Seguridad Garantizada:**
-Nuestros técnicos están altamente capacitados para asegurar que cada pieza de la cuna esté perfectamente ensamblada, proporcionando un entorno seguro y estable para tu bebé.
+## ¿Qué incluye el servicio?
 
-**Ahorro de Tiempo:**
-Entendemos que ser padre es un trabajo de tiempo completo. Deja el montaje de la cuna en manos de nuestros expertos para que puedas dedicarte a lo que realmente importa: cuidar de tu pequeño.
+- Armado completo de la cuna
+- Verificación de todas las piezas antes de empezar
+- Ajuste y revisión de seguridad al terminar
+- Si necesitás armar otros muebles del bebé, los hacemos en la misma visita
 
-**Profesionalismo y Experiencia:**
-Con años de experiencia en el armado de muebles para bebé, garantizamos un servicio impecable, desde la llegada puntual hasta el montaje preciso y cuidado de cada detalle.
+---
 
-**Atención Personalizada:**
-Nos adaptamos a tus horarios y necesidades, ofreciendo un servicio flexible que se ajusta a tus exigencias. Estamos aquí para ayudarte en cada paso del proceso.
+## Precios
 
-**Agenda tu servicio de armado de cuna ahora mismo: [Haz clic aquí](#contacto)**
+| Artículo | Precio |
+|----------|--------|
+| Cuna estándar | $900 |
+| Cuna funcional / convertible | $1200 |
 
-## Preguntas Frecuentes (FAQs)
+Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59892872427) y te damos el precio exacto. [Ver todos los precios](/precios).
 
-**1. ¿Qué incluye el servicio de armado de cuna?**  
-El servicio de armado de cuna incluye el montaje completo de la cuna siguiendo las instrucciones del fabricante. También realizamos una inspección final para asegurar que la cuna esté segura y estable para su uso.
+---
 
-**2. ¿Cuánto tiempo tarda el montaje de una cuna?**  
-El tiempo de montaje varía dependiendo del modelo de la cuna, pero generalmente nuestro equipo puede completar el armado en aproximadamente 1-2 horas.
+## Preguntas Frecuentes
 
-**3. ¿Necesito proporcionar alguna herramienta para el montaje?**  
-No, nuestros técnicos llegan completamente equipados con todas las herramientas necesarias para el armado de la cuna.
+**¿Cuánto tiempo lleva?**
+Entre 1 y 2 horas dependiendo del modelo.
 
-**4. ¿Puedo programar una cita en fin de semana?**  
-Sí, ofrecemos horarios flexibles que incluyen fines de semana para adaptarnos a tus necesidades.
+**¿Necesito herramientas?**
+No, llevamos todo.
 
-**5. ¿Qué pasa si la cuna tiene piezas faltantes o dañadas?**  
-Si durante el montaje descubrimos que faltan piezas o están dañadas, te informaremos de inmediato para que puedas contactar al fabricante o al vendedor para obtener las piezas necesarias.
+**¿Trabajan los sábados?**
+Sí, de lunes a sábado.
 
-**6. ¿Ofrecen garantía sobre el servicio de montaje?**  
-Sí, ofrecemos una garantía de satisfacción en nuestro servicio. Si tienes algún problema con el montaje de la cuna, volveremos para solucionarlo sin costo adicional.
+**¿Qué pasa si vienen piezas de menos?**
+Te avisamos para que reclames al vendedor. Cuando lleguen, volvemos a terminar.
 
-**7. ¿Pueden armar otros muebles para bebés?**  
-Sí, además de cunas, también podemos armar otros muebles para bebés como cambiadores, armarios, y sillas altas.
+**¿Tienen garantía?**
+Sí. Si algo no queda bien, volvemos a revisarlo sin costo.
 
-**8. ¿Cómo puedo reservar el servicio de armado de cuna?**  
-Puedes reservar nuestro servicio a través de nuestro [formulario en línea](#contacto), llamándonos por teléfono o enviándonos un correo electrónico. Te confirmaremos la cita rápidamente.
+**¿Arman otros muebles de bebé?**
+Sí, cambiadores, muebles de guardado, sillas altas y lo que necesites.
 
-**9. ¿Cuál es el costo del servicio de armado de cuna?**  
-El costo varía según el tipo de cuna y la complejidad del montaje. Contáctanos para obtener un presupuesto personalizado.
+---
 
-**10. ¿Qué medidas de seguridad toman durante el montaje?**  
-Nuestros técnicos siguen estrictamente las instrucciones del fabricante y utilizan herramientas adecuadas para asegurar que la cuna esté montada de manera segura y estable. Realizamos una inspección final para garantizar la seguridad del producto.
+## Contacto
 
-
-
+Mandanos una foto de la cuna por [WhatsApp](https://wa.me/59892872427) y coordinamos. También podés escribirnos desde la página de [contacto](/contacto).
