@@ -37,6 +37,22 @@ const relatedServices = getRelatedServices(services, entry.slug);
 const heroImagePath = Object.keys(allServiceImages).find(p => p.startsWith(`/src/content/services/${entry.slug}/image`));
 const heroImage = heroImagePath ? allServiceImages[heroImagePath].default : null;
 
+// Extract FAQ from markdown body
+function extractFAQ(body) {
+  const faqItems = [];
+  const matches = body.matchAll(/\*\*(.+?)\*\*\s*\n(.+?)(?=\n\n|\n\*\*|$)/gs);
+  for (const match of matches) {
+    const question = match[1].trim();
+    const answer = match[2].trim().replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+    if (question.includes('?')) {
+      faqItems.push({ "@type": "Question", "name": question, "acceptedAnswer": { "@type": "Answer", "text": answer } });
+    }
+  }
+  return faqItems;
+}
+
+const faqItems = extractFAQ(entry.body);
+
 const serviceSchema = [
   {
     "@context": "https://schema.org",
@@ -55,7 +71,12 @@ const serviceSchema = [
       { "@type": "ListItem", "position": 2, "name": "Servicios", "item": "https://armadoresmontevideo.uy/servicios" },
       { "@type": "ListItem", "position": 3, "name": entry.data.menu, "item": `https://armadoresmontevideo.uy/servicio/${entry.slug}` }
     ]
-  }
+  },
+  ...(faqItems.length > 0 ? [{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems
+  }] : [])
 ];
 ---
 

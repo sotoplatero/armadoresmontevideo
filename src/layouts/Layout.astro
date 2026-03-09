@@ -15,8 +15,6 @@ export interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
-const isHome = Astro.url.pathname === "/" || Astro.url.pathname === "";
-
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
@@ -101,9 +99,7 @@ description = description || SITE.DESCRIPTION
         },
       }}
     />
-    {isHome && (
-      <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
-    )}
+    <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
     {schema && Array.isArray(schema) && schema.map(s => (
       <script type="application/ld+json" set:html={JSON.stringify(s)} />
     ))}

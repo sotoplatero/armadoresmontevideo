@@ -6,7 +6,10 @@
       "mcp__plugin_playwright_playwright__browser_take_screenshot",
       "Bash(curl:*)",
       "Skill(agent-browser)",
-      "Bash(npx agent-browser:*)"
+      "Bash(npx agent-browser:*)",
+      "WebFetch(domain:www.elemporiodelhogar.com.uy)",
+      "Bash(agent-browser open:*)",
+      "Bash(do echo:*)"
     ]
   }
 }

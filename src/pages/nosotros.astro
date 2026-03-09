@@ -2,10 +2,18 @@
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import CTA from "@components/cta.astro";
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://armadoresmontevideo.uy/" },
+    { "@type": "ListItem", "position": 2, "name": "Nosotros", "item": "https://armadoresmontevideo.uy/nosotros" }
+  ]
+};
 ---
 
-
-<Layout title="Sobre Nosotros" description="Conoce al equipo de Armadores Montevideo. Profesionales dedicados al armado de muebles a domicilio con experiencia, compromiso y atención personalizada.">
+<Layout title="Sobre Nosotros" description="Conoce al equipo de Armadores Montevideo. Profesionales dedicados al armado de muebles a domicilio con experiencia, compromiso y atención personalizada." schema={breadcrumbSchema}>
 <Container >
 
     <article class="prose prose-lg mx-auto mt-24">

@@ -4,9 +4,18 @@ import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Layout from "@layouts/Layout.astro";
 import { Icon } from "astro-icon/components";
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://armadoresmontevideo.uy/" },
+    { "@type": "ListItem", "position": 2, "name": "Contacto", "item": "https://armadoresmontevideo.uy/contacto" }
+  ]
+};
 ---
 
-<Layout title="Contacto">
+<Layout title="Contacto" schema={breadcrumbSchema}>
   <Container>
     <div class="w-full max-w-screen-sm mx-auto py-16 space-y-4">
 

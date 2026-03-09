@@ -4,9 +4,17 @@ import Container from "@components/container.astro";
 import PageHero from "@components/PageHero.astro";
 import Services from '@components/services.astro'
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://armadoresmontevideo.uy/" },
+    { "@type": "ListItem", "position": 2, "name": "Servicios", "item": "https://armadoresmontevideo.uy/servicios" }
+  ]
+};
 ---
 
-<Layout title="Servicios de Armado de Muebles" description="Conoce todos nuestros servicios de armado de muebles a domicilio en Montevideo. Roperos, camas, escritorios, estanterías y más. Servicio profesional y garantizado.">
+<Layout title="Servicios de Armado de Muebles" description="Conoce todos nuestros servicios de armado de muebles a domicilio en Montevideo. Roperos, camas, escritorios, estanterías y más. Servicio profesional y garantizado." schema={breadcrumbSchema}>
   <Container>
     <PageHero
       title="Servicios de Armado de Muebles"

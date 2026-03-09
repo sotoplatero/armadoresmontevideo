@@ -6,12 +6,35 @@ import CTA from "@components/cta.astro";
 // import Sectionhead from "@components/sectionhead.astro";
 // import Pic from "@components/Pic.astro";
 
-// Filter blog entries with 'draft: false' & date before current date
 const services = await getCollection("services");
 
+const preciosSchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://armadoresmontevideo.uy/" },
+      { "@type": "ListItem", "position": 2, "name": "Precios", "item": "https://armadoresmontevideo.uy/precios" }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "¿Los precios incluyen IVA?", "acceptedAnswer": { "@type": "Answer", "text": "Sí, todos los precios mostrados en la tabla incluyen IVA." } },
+      { "@type": "Question", "name": "¿Hay costo adicional por el traslado?", "acceptedAnswer": { "@type": "Answer", "text": "El traslado dentro de Montevideo está incluido en el precio. Para zonas fuera del área metropolitana, puede aplicar un cargo adicional según la distancia." } },
+      { "@type": "Question", "name": "¿Hay descuento por armar varios muebles?", "acceptedAnswer": { "@type": "Answer", "text": "Sí, ofrecemos descuentos especiales cuando se requiere el armado de múltiples muebles en la misma visita. Contáctanos para una cotización personalizada." } },
+      { "@type": "Question", "name": "¿Por qué los precios son aproximados?", "acceptedAnswer": { "@type": "Answer", "text": "Los precios pueden variar según la complejidad específica del mueble, el tiempo requerido y las características particulares del espacio de instalación. Por eso recomendamos enviar una foto para dar un precio exacto." } },
+      { "@type": "Question", "name": "¿Se cobra por la cotización?", "acceptedAnswer": { "@type": "Answer", "text": "No, la cotización es totalmente gratuita y sin compromiso. Puedes enviarnos fotos por WhatsApp y te daremos un precio exacto." } },
+      { "@type": "Question", "name": "¿Qué formas de pago aceptan?", "acceptedAnswer": { "@type": "Answer", "text": "Aceptamos efectivo o transferencias por Prex. El pago se realiza una vez finalizado el trabajo a tu satisfacción." } },
+      { "@type": "Question", "name": "¿Los precios incluyen desarme de muebles?", "acceptedAnswer": { "@type": "Answer", "text": "No, los precios mostrados son solo por armado. Si necesitas servicio de desarme, consúltanos por el costo adicional." } },
+      { "@type": "Question", "name": "¿Hay horarios con precios diferenciados?", "acceptedAnswer": { "@type": "Answer", "text": "Los precios son estándar en horario comercial. Para servicios fuera de horario o fines de semana, puede aplicar un cargo adicional." } }
+    ]
+  }
+];
 ---
 
-<Layout title="Armado de Muebles a Domicilio - Precios" description="Consulta los precios para el armado de muebles a domicilio en Montevideo. Tarifas claras, servicio profesional y tiempos estimados para cada tipo de mueble. ¡Cotiza ahora">
+<Layout title="Armado de Muebles a Domicilio - Precios" description="Consulta los precios para el armado de muebles a domicilio en Montevideo. Tarifas claras, servicio profesional y tiempos estimados para cada tipo de mueble. ¡Cotiza ahora" schema={preciosSchema}>
 
     <Container>
         
