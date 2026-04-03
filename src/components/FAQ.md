@@ -40,7 +40,7 @@ Sí, puedes cambiar o cancelar tu cita con al menos 24 horas de anticipación si
 Por el momento solo aceptamos efectivo. El pago se realiza al finalizar el servicio.
 
 ### 11. ¿Cómo puedo programar un servicio de armado de muebles?
-Puedes programar una cita a través de nuestro sitio web directamente en [whatsapp](https://wa.me/59892872427).
+Puedes programar una cita a través de nuestro sitio web directamente en [whatsapp](https://wa.me/59895881009).
 
 ### 12. ¿Ofrecen servicios adicionales como desmontaje o reubicación de muebles?
 Sí, también ofrecemos servicios de desmontaje y reubicación de muebles. Estos servicios pueden ser solicitados al programar tu cita.
