@@ -17,7 +17,7 @@ Trabajamos con todas las marcas y modelos. Llegamos con las herramientas, armamo
 - Ajuste y nivelación final
 - Limpieza del espacio de trabajo
 
-El proceso es simple: nos mandás una foto del mueble por [WhatsApp](https://wa.me/59892872427), te damos un precio y coordinamos día y hora.
+El proceso es simple: nos mandás una foto del mueble por [WhatsApp](https://wa.me/59895881009), te damos un precio y coordinamos día y hora.
 
 ---
 
@@ -59,4 +59,4 @@ Sí, armamos todo tipo de muebles: [camas](/servicio/armado-juego-camas), [roper
 
 ## Contacto
 
-Mandanos una foto del mueble por [WhatsApp](https://wa.me/59892872427) y te respondemos con el precio. También podés escribirnos desde la página de [contacto](/contacto).
+Mandanos una foto del mueble por [WhatsApp](https://wa.me/59895881009) y te respondemos con el precio. También podés escribirnos desde la página de [contacto](/contacto).

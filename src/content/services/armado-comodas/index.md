@@ -18,7 +18,7 @@ Armamos cómodas de todo tipo y tamaño, cajoneras, zapateras y chifoniers. Trab
 | Cómodas y Cajoneras (6 o más cajones) | $ 900 |
 | Zapateras | $ 800 |
 
-Precios orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59892872427) para el precio exacto. [Ver todos los precios](/precios).
+Precios orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) para el precio exacto. [Ver todos los precios](/precios).
 
 ---
 
@@ -46,4 +46,4 @@ Sí, [roperos](/servicio/armado-placares-ropero), [camas](/servicio/armado-juego
 
 ## Contacto
 
-Mandanos una foto de la cómoda por [WhatsApp](https://wa.me/59892872427) y te respondemos con el precio. También podés usar la página de [contacto](/contacto).
+Mandanos una foto de la cómoda por [WhatsApp](https://wa.me/59895881009) y te respondemos con el precio. También podés usar la página de [contacto](/contacto).

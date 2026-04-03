@@ -29,7 +29,7 @@ Trabajamos con todas las marcas. Llevamos las herramientas, seguimos las instruc
 | Cuchetas                          | $ 1200    |
 | Multicamas y Camas Funcionales    | $ 1000    |
 
-Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59892872427) y te damos el precio exacto. [Ver todos nuestros precios](/precios).
+Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. [Ver todos nuestros precios](/precios).
 
 ---
 
@@ -57,4 +57,4 @@ Sí, también armamos [roperos](/servicio/armado-placares-ropero), [comedores](/
 
 ## Contacto
 
-Mandanos una foto de la cama por [WhatsApp](https://wa.me/59892872427) y te pasamos el precio. También podés escribirnos desde la página de [contacto](/contacto).
+Mandanos una foto de la cama por [WhatsApp](https://wa.me/59895881009) y te pasamos el precio. También podés escribirnos desde la página de [contacto](/contacto).

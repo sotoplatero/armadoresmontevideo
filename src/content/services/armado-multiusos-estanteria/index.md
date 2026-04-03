@@ -25,7 +25,7 @@ Trabajamos con todo tipo de estanterías, racks, bibliotecas y muebles modulares
 |----------|--------|
 | Bibliotecas, racks y multiusos | $800 |
 
-Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59892872427) y te damos el precio exacto. [Ver todos los precios](/precios).
+Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. [Ver todos los precios](/precios).
 
 ---
 
@@ -53,4 +53,4 @@ Sí, también armamos [roperos](/servicio/armado-placares-ropero), [camas](/serv
 
 ## Contacto
 
-Mandanos una foto del mueble por [WhatsApp](https://wa.me/59892872427) y te respondemos con el precio. También podés usar nuestra página de [contacto](/contacto).
+Mandanos una foto del mueble por [WhatsApp](https://wa.me/59895881009) y te respondemos con el precio. También podés usar nuestra página de [contacto](/contacto).

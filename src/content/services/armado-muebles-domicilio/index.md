@@ -26,7 +26,7 @@ Llevamos las herramientas, seguimos las instrucciones del fabricante y antes de 
 
 ## ¿Cómo funciona?
 
-1. **Mandanos una foto** del mueble por [WhatsApp](https://wa.me/59892872427)
+1. **Mandanos una foto** del mueble por [WhatsApp](https://wa.me/59895881009)
 2. **Te damos el precio** en el momento
 3. **Coordinamos día y hora** que te quede bien
 4. **Vamos, armamos y listo** — verificamos todo antes de irnos
@@ -54,4 +54,4 @@ Sí. Si algo no queda bien, volvemos sin costo.
 
 ## Contacto
 
-Mandanos una foto del mueble por [WhatsApp](https://wa.me/59892872427) y te pasamos el precio. También podés escribirnos desde la página de [contacto](/contacto).
+Mandanos una foto del mueble por [WhatsApp](https://wa.me/59895881009) y te pasamos el precio. También podés escribirnos desde la página de [contacto](/contacto).

@@ -55,4 +55,4 @@ En resumen, contratar un [servicio profesional de armado de muebles](/servicios)
 
 ## ¿Necesitás ayuda profesional?
 
-En **Armadores Montevideo** nos encargamos del armado de tus muebles a domicilio. [Consulta nuestros precios](/precios) o escribinos por [WhatsApp](https://wa.me/59892872427) para una cotización sin compromiso.
+En **Armadores Montevideo** nos encargamos del armado de tus muebles a domicilio. [Consulta nuestros precios](/precios) o escribinos por [WhatsApp](https://wa.me/59895881009) para una cotización sin compromiso.

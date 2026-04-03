@@ -21,7 +21,7 @@ Armamos roperos de todo tipo: de 2 a 8 puertas, con puertas corredizas, con espe
 | Placard 2 puertas corredizas y cajones            | $1200   |
 | Placard 3 puertas corredizas con espejo y cajones | $1800   |
 
-Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59892872427) y te damos el precio exacto. [Ver todos los precios](/precios).
+Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. [Ver todos los precios](/precios).
 
 ---
 
@@ -59,4 +59,4 @@ Sí, también armamos [camas](/servicio/armado-juego-camas), [escritorios](/serv
 
 ## Contacto
 
-Mandanos una foto del ropero por [WhatsApp](https://wa.me/59892872427) y te pasamos el precio. También podés usar la página de [contacto](/contacto).
+Mandanos una foto del ropero por [WhatsApp](https://wa.me/59895881009) y te pasamos el precio. También podés usar la página de [contacto](/contacto).

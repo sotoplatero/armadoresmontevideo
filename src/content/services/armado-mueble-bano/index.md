@@ -17,14 +17,14 @@ Trabajamos con todo tipo de muebles de baño: botiquines, vanitorys, estantes, o
 - Nivelación y ajuste
 - Verificamos que todo quede firme antes de irnos
 
-El proceso es simple: mandanos una foto por [WhatsApp](https://wa.me/59892872427), te damos el precio y coordinamos.
+El proceso es simple: mandanos una foto por [WhatsApp](https://wa.me/59895881009), te damos el precio y coordinamos.
 
 ---
 
 ## Preguntas Frecuentes
 
 **¿Cuánto cuesta?**
-Depende del mueble. Mandanos una foto por [WhatsApp](https://wa.me/59892872427) para una cotización exacta. [Ver precios orientativos](/precios).
+Depende del mueble. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) para una cotización exacta. [Ver precios orientativos](/precios).
 
 **¿Incluyen la fijación a la pared?**
 Sí, si el mueble va colgado, lo fijamos y nivelamos.
@@ -42,4 +42,4 @@ Sí, de lunes a sábado.
 
 ## Contacto
 
-Mandanos una foto del mueble por [WhatsApp](https://wa.me/59892872427) y te respondemos con el precio. También podés usar la página de [contacto](/contacto).
+Mandanos una foto del mueble por [WhatsApp](https://wa.me/59895881009) y te respondemos con el precio. También podés usar la página de [contacto](/contacto).

@@ -25,7 +25,7 @@ Armamos racks, centros de entretenimiento, muebles con estantes y cualquier mueb
 |----------|--------|
 | Rack para TV / centro de entretenimiento | $800 |
 
-Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59892872427) y te damos el precio exacto. [Ver todos los precios](/precios).
+Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. [Ver todos los precios](/precios).
 
 ---
 
@@ -56,4 +56,4 @@ Sí, [roperos](/servicio/armado-placares-ropero), [camas](/servicio/armado-juego
 
 ## Contacto
 
-Mandanos una foto del mueble por [WhatsApp](https://wa.me/59892872427) y te pasamos el precio. También podés usar la página de [contacto](/contacto).
+Mandanos una foto del mueble por [WhatsApp](https://wa.me/59895881009) y te pasamos el precio. También podés usar la página de [contacto](/contacto).

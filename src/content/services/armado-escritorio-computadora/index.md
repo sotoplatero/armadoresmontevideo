@@ -27,7 +27,7 @@ Llevamos las herramientas y seguimos las instrucciones del fabricante. Antes de 
 | Escritorios componibles, operativos y de hogar | $800 |
 | Escritorios gerenciales y de reunión | $900 |
 
-Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59892872427) y te damos el precio exacto. [Ver todos los precios](/precios).
+Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. [Ver todos los precios](/precios).
 
 ---
 
@@ -55,4 +55,4 @@ Sí, también [roperos](/servicio/armado-placares-ropero), [camas](/servicio/arm
 
 ## Contacto
 
-Mandanos una foto del escritorio por [WhatsApp](https://wa.me/59892872427) y te respondemos con el precio. También podés usar la página de [contacto](/contacto).
+Mandanos una foto del escritorio por [WhatsApp](https://wa.me/59895881009) y te respondemos con el precio. También podés usar la página de [contacto](/contacto).

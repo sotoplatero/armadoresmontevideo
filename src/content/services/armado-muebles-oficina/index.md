@@ -28,7 +28,7 @@ Trabajamos con cualquier marca y cantidad. Si tenés varios muebles, los armamos
 | Escritorios operativos y de hogar | $800 |
 | Escritorios gerenciales y de reunión | $900 |
 
-Estos precios son orientativos. Mandanos las fotos por [WhatsApp](https://wa.me/59892872427) y te hacemos un presupuesto. [Ver todos los precios](/precios).
+Estos precios son orientativos. Mandanos las fotos por [WhatsApp](https://wa.me/59895881009) y te hacemos un presupuesto. [Ver todos los precios](/precios).
 
 ---
 
@@ -56,4 +56,4 @@ Sí, [roperos](/servicio/armado-placares-ropero), [camas](/servicio/armado-juego
 
 ## Contacto
 
-Mandanos fotos de los muebles por [WhatsApp](https://wa.me/59892872427) y te pasamos el presupuesto. También podés usar la página de [contacto](/contacto).
+Mandanos fotos de los muebles por [WhatsApp](https://wa.me/59895881009) y te pasamos el presupuesto. También podés usar la página de [contacto](/contacto).
