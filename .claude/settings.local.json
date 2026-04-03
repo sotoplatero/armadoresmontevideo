@@ -9,7 +9,12 @@
       "Bash(npx agent-browser:*)",
       "WebFetch(domain:www.elemporiodelhogar.com.uy)",
       "Bash(agent-browser open:*)",
-      "Bash(do echo:*)"
+      "Bash(do echo:*)",
+      "Bash(xargs grep:*)",
+      "Bash(find:*)",
+      "Bash(wc -l /c/Users/soto/projects/armadomuebles/src/components/*.astro)",
+      "Bash(npx skills:*)",
+      "Bash(npm run:*)"
     ]
   }
 }

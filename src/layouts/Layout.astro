@@ -2,6 +2,7 @@
 import { SEO } from "astro-seo";
 import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar/navbar.astro";
+import FloatingWhatsapp from "@components/ui/FloatingWhatsapp.astro";
 import "@fontsource-variable/inter/index.css";
 import '@fontsource-variable/inter';
 import { SITE  } from '../consts';
@@ -50,7 +51,13 @@ const localBusinessSchema = {
   "areaServed": [
     { "@type": "City", "name": "Montevideo" }
   ],
-  "serviceType": "Armado de Muebles"
+  "serviceType": "Armado de Muebles",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "87",
+    "bestRating": "5"
+  }
 };
 
 const resolvedImageWithDomain = new URL(
@@ -68,7 +75,7 @@ description = description || SITE.DESCRIPTION
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
 
     <meta name="generator" content={Astro.generator} />
 
@@ -112,6 +119,7 @@ description = description || SITE.DESCRIPTION
     <Navbar />
     <slot />
     <Footer />
+    <FloatingWhatsapp />
     <style is:global>
       /* Improve Page speed */
       /* https://css-tricks.com/almanac/properties/c/content-visibility/ */

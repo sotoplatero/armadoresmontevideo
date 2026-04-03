@@ -2,7 +2,7 @@ import type { Metadata, Site, Socials } from "@types";
 
 export const SITE: Site = {
   TITLE: "Armadores de Muebles a Domicilio en Montevideo",
-  DESCRIPTION: "Armado de cualquier tipo de muebles a domicilio. Ahorra tiempo y evita errores en tu nuevos Muebles.",
+  DESCRIPTION: "Armado profesional de muebles a domicilio en Montevideo. Ahorra tiempo y evita errores en tus nuevos muebles. Garantía incluida.",
   EMAIL: "soto.platero@gmail.com",
   NUM_POSTS_ON_HOMEPAGE: 6,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
@@ -10,7 +10,7 @@ export const SITE: Site = {
 
 export const HOME: Metadata = {
   TITLE: "Home",
-  DESCRIPTION: "Armado de cualquier tipo de muebles a domicilio. Ahorra tiempo y evita errores en tu nuevos Muebles.",
+  DESCRIPTION: "Armado profesional de muebles a domicilio en Montevideo. Ahorra tiempo y evita errores en tus nuevos muebles. Garantía incluida.",
 };
 
 export const BLOG: Metadata = {

@@ -16,7 +16,7 @@ publishedBlogEntries.sort(function (a, b) {
 });
 ---
 
-<Layout title="Blog">
+<Layout title="Blog" description="Guías y consejos para armar muebles en casa. Tips de mantenimiento, herramientas necesarias y cuándo contratar un profesional en Montevideo.">
   <Container>
     <Sectionhead>
       <Fragment slot="title" class="text-left">Blog</Fragment>
@@ -44,7 +44,7 @@ publishedBlogEntries.sort(function (a, b) {
                       <time
                         class="text-gray-400"
                         datetime={post.data.date.toISOString()}>
-                        {post.data.date.toDateString()}
+                        {post.data.date.toLocaleDateString('es-UY', { year: 'numeric', month: 'long', day: 'numeric' })}
                       </time>
                     </div>
                   </div>
