@@ -18,7 +18,18 @@ const heroImage = image || defaultHeroImage;
 ---
 
 <div class="grid lg:grid-cols-2 place-items-center gap-6 lg:gap-16 pt-4 pb-10 md:pt-12 md:pb-24">
-  <div class="order-1">
+  <div class="py-2 md:py-6 w-full lg:order-2">
+    <Picture
+      src={heroImage}
+      alt={title}
+      class="aspect-[4/3] object-cover rounded-lg w-full"
+      widths={[200, 400, 600]}
+      sizes="(max-width: 800px) 100vw, 620px"
+      loading="eager"
+      format="avif"
+    />
+  </div>
+  <div class="lg:order-1">
     {breadcrumbs && (
       <nav class="text-sm text-slate-400 mb-4">
         {breadcrumbs.map((crumb, i) => (
@@ -39,7 +50,7 @@ const heroImage = image || defaultHeroImage;
     <p class="text-base sm:text-lg mt-3 sm:mt-4 text-slate-600 max-w-xl">
       {description}
     </p>
-    <div class="mt-5 sm:mt-6 flex flex-row flex-wrap gap-3 items-center">
+    <div data-hero-cta class="mt-5 sm:mt-6 flex flex-row flex-wrap gap-3 items-center">
       <BtnWhatsapp message={whatsappMessage} />
       <a data-umami-event="llamar-hero" href="tel:+59895881009" class="text-lg inline-flex items-center justify-center text-slate-700 font-semibold py-4 px-6 sm:px-8 rounded-full border border-slate-300 hover:border-slate-400 transition duration-300">
         <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -51,16 +62,5 @@ const heroImage = image || defaultHeroImage;
     {badge && (
       <p class="mt-4 text-sm text-slate-400">{badge}</p>
     )}
-  </div>
-  <div class="order-2 w-full">
-    <Picture
-      src={heroImage}
-      alt={title}
-      class="object-cover rounded-lg w-full h-44 sm:h-auto sm:aspect-[4/3]"
-      widths={[200, 400, 600]}
-      sizes="(max-width: 800px) 100vw, 620px"
-      loading="eager"
-      format="avif"
-    />
   </div>
 </div>
