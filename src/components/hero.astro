@@ -25,10 +25,13 @@ import BtnWhatsapp from "./ui/BtnWhatsapp.astro";
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
       Armamos roperos, camas, escritorios, comedores y más en tu casa. Llegamos con las herramientas, lo dejamos listo y te damos garantía.
     </p>
-    <div class="mt-6 flex flex-col sm:flex-row gap-3 items-start">
-      <BtnWhatsapp />
-      <a href="/precios" class="text-lg inline-flex items-center text-slate-700 font-medium py-4 px-8 rounded-full border border-slate-300 hover:border-slate-400 transition duration-300">
-        Ver precios
+    <div class="mt-6 flex flex-col sm:flex-row flex-wrap gap-3 items-stretch sm:items-center">
+      <BtnWhatsapp message="Hola, necesito armar un mueble en Montevideo. ¿Me pueden pasar una cotización?" />
+      <a data-umami-event="llamar-hero" href="tel:+59895881009" class="text-lg inline-flex items-center justify-center text-slate-700 font-semibold py-4 px-8 rounded-full border border-slate-300 hover:border-slate-400 transition duration-300">
+        <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.21 2.2z"/>
+        </svg>
+        Llamar
       </a>
     </div>
     <p class="mt-4 text-sm text-slate-400">+500 muebles armados en Montevideo</p>
