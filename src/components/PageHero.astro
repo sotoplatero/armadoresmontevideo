@@ -9,27 +9,16 @@ interface Props {
   description: string;
   image?: ImageMetadata;
   badge?: string;
-  showPriceLink?: boolean;
   breadcrumbs?: { label: string; href?: string }[];
+  whatsappMessage?: string;
 }
 
-const { title, description, image, badge, showPriceLink = true, breadcrumbs } = Astro.props;
+const { title, description, image, badge, breadcrumbs, whatsappMessage } = Astro.props;
 const heroImage = image || defaultHeroImage;
 ---
 
-<div class="grid lg:grid-cols-2 place-items-center gap-10 lg:gap-16 py-16 md:pt-12 md:pb-24">
-  <div class="py-6 md:order-1">
-    <Picture
-      src={heroImage}
-      alt={title}
-      class="aspect-[4/3] object-cover rounded-lg"
-      widths={[200, 400, 600]}
-      sizes="(max-width: 800px) 100vw, 620px"
-      loading="eager"
-      format="avif"
-    />
-  </div>
-  <div>
+<div class="grid lg:grid-cols-2 place-items-center gap-6 lg:gap-16 pt-4 pb-10 md:pt-12 md:pb-24">
+  <div class="order-1">
     {breadcrumbs && (
       <nav class="text-sm text-slate-400 mb-4">
         {breadcrumbs.map((crumb, i) => (
@@ -44,22 +33,34 @@ const heroImage = image || defaultHeroImage;
       </nav>
     )}
     <h1
-      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter !leading-[0.85]">
+      class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter !leading-[0.9]">
       {title}
     </h1>
-    <p class="text-lg mt-4 text-slate-600 max-w-xl">
+    <p class="text-base sm:text-lg mt-3 sm:mt-4 text-slate-600 max-w-xl">
       {description}
     </p>
-    <div class="mt-6 flex flex-col sm:flex-row gap-3 items-start">
-      <BtnWhatsapp />
-      {showPriceLink && (
-        <a href="/precios" class="text-lg inline-flex items-center text-slate-700 font-medium py-4 px-8 rounded-full border border-slate-300 hover:border-slate-400 transition duration-300">
-          Ver precios
-        </a>
-      )}
+    <div class="mt-5 sm:mt-6 flex flex-row flex-wrap gap-3 items-center">
+      <BtnWhatsapp message={whatsappMessage} />
+      <a data-umami-event="llamar-hero" href="tel:+59895881009" class="text-lg inline-flex items-center justify-center text-slate-700 font-semibold py-4 px-6 sm:px-8 rounded-full border border-slate-300 hover:border-slate-400 transition duration-300">
+        <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.21 2.2z"/>
+        </svg>
+        Llamar
+      </a>
     </div>
     {badge && (
       <p class="mt-4 text-sm text-slate-400">{badge}</p>
     )}
+  </div>
+  <div class="order-2 w-full">
+    <Picture
+      src={heroImage}
+      alt={title}
+      class="object-cover rounded-lg w-full h-44 sm:h-auto sm:aspect-[4/3]"
+      widths={[200, 400, 600]}
+      sizes="(max-width: 800px) 100vw, 620px"
+      loading="eager"
+      format="avif"
+    />
   </div>
 </div>
