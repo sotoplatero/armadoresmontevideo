@@ -33,10 +33,18 @@ export const PROJECTS: Metadata = {
     "A collection of my projects with links to repositories and live demos.",
 };
 
+// Reseñas reales de clientes en Google Business Profile.
+// Se muestran como prueba social (sin marcado de rating: las reseñas en el
+// propio sitio son "self-serving" y no califican para estrellas en Google).
+export const reviews = [
+  { name: "Silvana", text: "Excelente servicio y muy buenos precios. Totalmente recomendable!!" },
+  { name: "Felix Machado", text: "Súper barato y excelente el servicio." },
+  { name: "Luar P.", text: "Excelente servicio y muy amable, son buenos en el armado." },
+];
+
 // Barrios con landing local propia en /armador-de-muebles-en-{slug}/.
 // Solo los de mayor demanda/diferenciación, cada uno con contenido único
 // (intro + context + highlights + faqs) para evitar thin/doorway pages.
-// `testimonial` se incluye solo donde hay una reseña real ya publicada.
 export interface Neighborhood {
   name: string;
   slug: string;
@@ -44,7 +52,6 @@ export interface Neighborhood {
   context: string;
   highlights: string[];
   faqs: { q: string; a: string }[];
-  testimonial?: { name: string; text: string; service: string };
   nearby: string[];
 }
 
@@ -72,11 +79,6 @@ export const neighborhoods: Neighborhood[] = [
         a: "En la mayoría de los casos sí. Mandanos la foto y la fecha de entrega por WhatsApp y buscamos el día más cercano que te quede cómodo.",
       },
     ],
-    testimonial: {
-      name: "María L.",
-      text: "Armaron un ropero de 6 puertas en menos de 3 horas. Todo perfecto, puertas alineadas y cajones que corren bien. Muy recomendable.",
-      service: "Ropero 6 puertas",
-    },
     nearby: ["punta-carretas", "cordon", "buceo"],
   },
   {
@@ -127,11 +129,6 @@ export const neighborhoods: Neighborhood[] = [
         a: "Atendemos de lunes a sábado y coordinamos horarios que te queden cómodos si estudiás o trabajás de día.",
       },
     ],
-    testimonial: {
-      name: "Carlos R.",
-      text: "Les mandé la foto por WhatsApp, me respondieron en 10 minutos con el precio y al otro día ya estaban en casa. Servicio impecable.",
-      service: "Cama marinera",
-    },
     nearby: ["centro", "pocitos", "punta-carretas"],
   },
   {
@@ -182,11 +179,6 @@ export const neighborhoods: Neighborhood[] = [
         a: "Sí, cubrimos Carrasco con traslado incluido. Confirmanos la dirección al pedir el presupuesto.",
       },
     ],
-    testimonial: {
-      name: "Ana P.",
-      text: "Contraté para armar un comedor y un escritorio. Llegaron puntuales, con todas las herramientas, y dejaron todo limpio. Garantía real.",
-      service: "Comedor + Escritorio",
-    },
     nearby: ["buceo", "pocitos"],
   },
   {
