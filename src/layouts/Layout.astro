@@ -5,8 +5,10 @@ import Navbar from "@components/navbar/navbar.astro";
 import FloatingWhatsapp from "@components/ui/FloatingWhatsapp.astro";
 import "@fontsource-variable/inter/index.css";
 import '@fontsource-variable/inter';
-import { SITE  } from '../consts';
+import { SITE, PROFILES  } from '../consts';
 import Cta from "@components/cta.astro";
+
+const sameAs = [PROFILES.GOOGLE_BUSINESS, PROFILES.INSTAGRAM, PROFILES.FACEBOOK].filter(Boolean);
 
 export interface Props {
   title: string;
@@ -25,8 +27,9 @@ const localBusinessSchema = {
   "@id": "https://armadoresmontevideo.uy/#organization",
   "url": "https://armadoresmontevideo.uy",
   "telephone": "+598-95-881-009",
-  "email": "soto.platero@gmail.com",
+  "email": "contacto@armadoresmontevideo.uy",
   "priceRange": "$$",
+  ...(sameAs.length > 0 ? { "sameAs": sameAs } : {}),
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Perez Castellano 1489",
@@ -51,13 +54,10 @@ const localBusinessSchema = {
   "areaServed": [
     { "@type": "City", "name": "Montevideo" }
   ],
-  "serviceType": "Armado de Muebles",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "87",
-    "bestRating": "5"
-  }
+  "serviceType": "Armado de Muebles"
+  // Nota: el aggregateRating se removió a propósito. Las reseñas reales viven en el
+  // Google Business Profile (enlazado en sameAs) y son las que cuentan en Google.
+  // Un rating auto-declarado sin reseñas visibles incumple las políticas de Google.
 };
 
 const resolvedImageWithDomain = new URL(
@@ -74,7 +74,7 @@ description = description || SITE.DESCRIPTION
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png" href="/favicon.png" />
 
     <meta name="generator" content={Astro.generator} />

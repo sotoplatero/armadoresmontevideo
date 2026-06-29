@@ -18,9 +18,11 @@ const services = await getCollection("services");
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div>
-          <h3 class="font-medium text-sm text-slate-800">Barrios</h3>
-          <div class="mt-3 text-xs text-slate-600 leading-5">
-            {neighborhoods.map((b) => b.name).join(", ")}
+          <h3 class="font-medium text-sm text-slate-800">Armador de muebles por barrio</h3>
+          <div class="mt-3 flex flex-wrap gap-x-3 gap-y-1 text-xs text-slate-600 leading-5">
+            {neighborhoods.map((b) => (
+              <a href={`/armador-de-muebles-en-${b.slug}/`} class="hover:text-indigo-600">{b.name}</a>
+            ))}
           </div>
         </div>
       </div>

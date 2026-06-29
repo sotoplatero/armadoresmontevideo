@@ -1,11 +1,20 @@
 import type { Metadata, Site, Socials } from "@types";
 
 export const SITE: Site = {
-  TITLE: "Armadores de Muebles a Domicilio en Montevideo",
-  DESCRIPTION: "Armado profesional de muebles a domicilio en Montevideo. Ahorra tiempo y evita errores en tus nuevos muebles. Garantía incluida.",
-  EMAIL: "soto.platero@gmail.com",
+  TITLE: "Armador de Muebles a Domicilio en Montevideo | Armadores",
+  DESCRIPTION: "Armadores de muebles a domicilio en Montevideo. Armamos roperos, camas, escritorios y racks, con herramientas y garantía. Cotizá gratis por WhatsApp.",
+  EMAIL: "contacto@armadoresmontevideo.uy",
   NUM_POSTS_ON_HOMEPAGE: 6,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
+};
+
+// Perfiles externos para el campo sameAs del schema (señales de autoridad/local).
+// Pegá aquí las URLs reales. Las vacías se ignoran automáticamente.
+export const PROFILES = {
+  // URL del Google Business Profile (ficha en Google Maps).
+  GOOGLE_BUSINESS: "https://share.google/5kAdlXEvrlfl0ZhIP",
+  INSTAGRAM: "",
+  FACEBOOK: "",
 };
 
 export const HOME: Metadata = {
@@ -24,63 +33,186 @@ export const PROJECTS: Metadata = {
     "A collection of my projects with links to repositories and live demos.",
 };
 
-export const neighborhoods = [
+// Barrios con landing local propia en /armador-de-muebles-en-{slug}/.
+// Solo los de mayor demanda/diferenciación, cada uno con contenido único
+// (intro + context + highlights + faqs) para evitar thin/doorway pages.
+// `testimonial` se incluye solo donde hay una reseña real ya publicada.
+export interface Neighborhood {
+  name: string;
+  slug: string;
+  intro: string;
+  context: string;
+  highlights: string[];
+  faqs: { q: string; a: string }[];
+  testimonial?: { name: string; text: string; service: string };
+  nearby: string[];
+}
+
+export const neighborhoods: Neighborhood[] = [
+  {
+    name: "Pocitos",
+    slug: "pocitos",
+    intro:
+      "Pocitos es uno de los barrios con más mudanzas de Montevideo. Entre las torres sobre la rambla, los monoambientes y los apartamentos que cambian de inquilino seguido, armar muebles nuevos es algo de todas las semanas. Vamos a tu edificio, armamos dentro de tu unidad y te dejamos el ropero, la cama o el escritorio listos para usar.",
+    context:
+      "La mayoría de los trabajos en Pocitos son en altura: edificios con ascensor, a veces con coordinación de portería para subir las cajas. Estamos acostumbrados a ese ritmo, así que no necesitás bajar nada ni hacer lugar: subimos las piezas, armamos arriba y nos llevamos el cartón. Si recién te mudaste, podemos armar el dormitorio completo —cama, ropero y mesas de luz— en una sola visita.",
+    highlights: [
+      "Armado dentro de tu apartamento, sin que bajes las cajas",
+      "Coordinamos con la portería del edificio cuando hace falta",
+      "Roperos y camas armados en el día",
+      "Ideal para mudanzas: dejamos el dormitorio listo en una visita",
+    ],
+    faqs: [
       {
-        "name": "Centro",
-        "slug": "centro"
+        q: "¿Coordinan con la portería del edificio en Pocitos?",
+        a: "Sí. Si tu edificio pide aviso previo o usar el ascensor de servicio, lo coordinamos al agendar para entrar sin trabas.",
       },
       {
-        "name": "Pocitos",
-        "slug": "pocitos"
+        q: "¿Arman el mismo día que recibo el mueble?",
+        a: "En la mayoría de los casos sí. Mandanos la foto y la fecha de entrega por WhatsApp y buscamos el día más cercano que te quede cómodo.",
+      },
+    ],
+    testimonial: {
+      name: "María L.",
+      text: "Armaron un ropero de 6 puertas en menos de 3 horas. Todo perfecto, puertas alineadas y cajones que corren bien. Muy recomendable.",
+      service: "Ropero 6 puertas",
+    },
+    nearby: ["punta-carretas", "cordon", "buceo"],
+  },
+  {
+    name: "Punta Carretas",
+    slug: "punta-carretas",
+    intro:
+      "Punta Carretas combina torres modernas cerca de la rambla y del shopping con apartamentos premium recién estrenados. Armamos roperos, camas, racks de TV, escritorios y muebles de living a domicilio, coordinando con el edificio cuando hace falta.",
+    context:
+      "En la zona vemos mucho apartamento a estrenar y reformas, donde llega todo el mobiliario junto. Por eso solemos hacer amueblados completos: dormitorio, living con rack y TV, y un rincón de home-office en una misma visita. Trabajamos prolijo, nivelamos cada pieza y dejamos los cables del living ordenados.",
+    highlights: [
+      "Amueblado completo de un apartamento en una sola visita",
+      "Armado de racks y montaje de TV en el living",
+      "Escritorios y rincones de home-office",
+      "Trabajo prolijo en torres y apartamentos premium",
+    ],
+    faqs: [
+      {
+        q: "¿Pueden amueblar un apartamento completo en Punta Carretas?",
+        a: "Sí. Si estrenás o reformaste, coordinamos una visita para armar dormitorio, living y escritorio de una vez. Pasanos la lista de muebles y te damos precio y tiempo estimado.",
       },
       {
-        "name": "Carrasco",
-        "slug": "carrasco"
+        q: "¿Montan también la TV en la pared del living?",
+        a: "Sí, instalamos el soporte de la TV en la pared además de armar el rack. Mirá el servicio de instalación de soporte de TV para más detalle.",
+      },
+    ],
+    nearby: ["pocitos", "cordon", "centro"],
+  },
+  {
+    name: "Cordón",
+    slug: "cordon",
+    intro:
+      "El Cordón, entre el Centro y Tres Cruces, es un barrio universitario lleno de apartamentos en alquiler. Estrenar muebles al mudarse es lo más común, y nosotros vamos y los armamos el mismo día que los recibís, con horarios que se adaptan a tu cursada o tu trabajo.",
+    context:
+      "Acá la mayoría son monoambientes y apartamentos de uno o dos dormitorios donde se aprovecha cada metro. Armamos camas, escritorios, estanterías y roperos pensados para espacios chicos, y damos prioridad a los muebles que necesitás usar primero: la cama y el ropero el mismo día de la mudanza.",
+    highlights: [
+      "Armado el mismo día de la mudanza",
+      "Cama, ropero y escritorio en una visita",
+      "Soluciones para monoambientes y espacios chicos",
+      "Horarios flexibles, también después de hora y sábados",
+    ],
+    faqs: [
+      {
+        q: "¿Arman muebles de un alquiler recién mudado en el Cordón?",
+        a: "Sí, es lo que más hacemos en la zona. Coordinamos para el día de la mudanza y dejamos cama, ropero y escritorio listos para que puedas instalarte enseguida.",
       },
       {
-        "name": "Ciudad Vieja",
-        "slug": "ciudad-vieja"
+        q: "¿Tienen horarios fuera del horario laboral?",
+        a: "Atendemos de lunes a sábado y coordinamos horarios que te queden cómodos si estudiás o trabajás de día.",
+      },
+    ],
+    testimonial: {
+      name: "Carlos R.",
+      text: "Les mandé la foto por WhatsApp, me respondieron en 10 minutos con el precio y al otro día ya estaban en casa. Servicio impecable.",
+      service: "Cama marinera",
+    },
+    nearby: ["centro", "pocitos", "punta-carretas"],
+  },
+  {
+    name: "Centro",
+    slug: "centro",
+    intro:
+      "El Centro de Montevideo concentra edificios y apartamentos con mucho recambio de inquilinos, así que armar muebles nuevos es algo frecuente. Vamos a tu edificio sobre 18 de Julio y alrededores y armamos lo que necesites sin que pierdas tiempo.",
+    context:
+      "Muchos edificios del Centro son antiguos, con ascensores chicos y pasillos angostos. Tenemos experiencia subiendo y armando muebles grandes pieza por pieza dentro del apartamento, así que un ropero o un placard que no entra armado en el ascensor lo montamos arriba sin problema.",
+    highlights: [
+      "Experiencia en edificios antiguos y ascensores chicos",
+      "Armamos muebles grandes pieza por pieza dentro de la unidad",
+      "Cobertura en microcentro y todo el eje de 18 de Julio",
+      "Atención de lunes a sábado",
+    ],
+    faqs: [
+      {
+        q: "¿Suben muebles grandes por ascensores chicos en el Centro?",
+        a: "Sí. Cuando el mueble no entra armado, subimos las piezas y lo armamos dentro del apartamento. Es habitual en los edificios antiguos de la zona.",
       },
       {
-        "name": "Punta Carretas",
-        "slug": "punta-carretas"
+        q: "¿Atienden en el microcentro y sobre 18 de Julio?",
+        a: "Sí, cubrimos todo el Centro y el eje de 18 de Julio. El traslado está incluido en el precio.",
+      },
+    ],
+    nearby: ["cordon", "pocitos", "punta-carretas"],
+  },
+  {
+    name: "Carrasco",
+    slug: "carrasco",
+    intro:
+      "En Carrasco trabajamos sobre todo con casas amplias y muebles grandes: placares de varias puertas, comedores completos, bibliotecas y muebles de jardín. Llegamos con todas las herramientas y dejamos cada pieza nivelada y firme.",
+    context:
+      "Al ser una zona de casas, los trabajos suelen ser de mayor porte que en un apartamento: placares de 6 u 8 puertas, comedores de 6 a 8 sillas, bibliotecas de living y muebles de exterior. Por eso coordinamos el tiempo de trabajo por adelantado, así sabés con precisión cuánto va a demorar y organizás tu día.",
+    highlights: [
+      "Placares de 6 y 8 puertas",
+      "Comedores de 6 a 8 sillas y bibliotecas de living",
+      "Muebles de jardín y exterior",
+      "Tiempo de trabajo coordinado por adelantado",
+    ],
+    faqs: [
+      {
+        q: "¿Arman placares de muchas puertas y comedores grandes en Carrasco?",
+        a: "Sí, es lo más frecuente en la zona. Para placares de 6 u 8 puertas y comedores de 8 sillas te pasamos precio y tiempo estimado antes de empezar.",
       },
       {
-        "name": "Malvin",
-        "slug": "malvin"
+        q: "¿Llegan a Carrasco y Carrasco Norte?",
+        a: "Sí, cubrimos Carrasco con traslado incluido. Confirmanos la dirección al pedir el presupuesto.",
+      },
+    ],
+    testimonial: {
+      name: "Ana P.",
+      text: "Contraté para armar un comedor y un escritorio. Llegaron puntuales, con todas las herramientas, y dejaron todo limpio. Garantía real.",
+      service: "Comedor + Escritorio",
+    },
+    nearby: ["buceo", "pocitos"],
+  },
+  {
+    name: "Buceo",
+    slug: "buceo",
+    intro:
+      "El Buceo creció con las torres nuevas cerca del World Trade Center y del puerto. Armamos muebles tanto en apartamentos a estrenar como en oficinas de la zona: escritorios, estanterías, racks, placares y mobiliario de home-office.",
+    context:
+      "Es un barrio con mucha actividad de oficinas y home-office además de vivienda. Armamos escritorios operativos, estanterías y muebles de oficina con la misma rapidez que en el hogar, y coordinamos con los edificios corporativos cuando hace falta acceso o aviso previo.",
+    highlights: [
+      "Muebles de oficina y home-office: escritorios operativos y estanterías",
+      "Apartamentos a estrenar en las torres del WTC",
+      "Racks de TV y placares para vivienda",
+      "Coordinación con edificios corporativos",
+    ],
+    faqs: [
+      {
+        q: "¿Arman muebles de oficina en el Buceo?",
+        a: "Sí. Montamos escritorios operativos, estaciones de trabajo y estanterías, tanto para oficinas como para home-office. Pedinos presupuesto con la cantidad de puestos.",
       },
       {
-        "name": "Buceo",
-        "slug": "buceo"
+        q: "¿Trabajan en las torres nuevas cerca del World Trade Center?",
+        a: "Sí, atendemos los apartamentos a estrenar de la zona y coordinamos con la administración del edificio el acceso si es necesario.",
       },
-      {
-        "name": "Parque Rodó",
-        "slug": "parque-rodo"
-      },
-      {
-        "name": "Tres Cruces",
-        "slug": "tres-cruces"
-      },
-      {
-        "name": "Cordón",
-        "slug": "cordon"
-      },
-      {
-        "name": "Aguada",
-        "slug": "aguada"
-      },
-      {
-        "name": "Prado",
-        "slug": "prado"
-      },
-      {
-        "name": "Pajas Blancas",
-        "slug": "pajas-blancas"
-      },
-      {
-        "name": "Colón",
-        "slug": "colon"
-      },
-    ]
-  
-  
+    ],
+    nearby: ["pocitos", "carrasco", "punta-carretas"],
+  },
+];
+

@@ -1,0 +1,171 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import PageHero from "@components/PageHero.astro";
+import Cta from "@components/cta.astro";
+import BtnWhatsapp from "@components/ui/BtnWhatsapp.astro";
+import { neighborhoods } from "../consts";
+
+export async function getStaticPaths() {
+  const services = await getCollection("services");
+  return neighborhoods.map((barrio) => ({
+    params: { slug: barrio.slug },
+    props: { barrio, services },
+  }));
+}
+
+const { barrio, services } = Astro.props;
+
+const title = `Armador de Muebles en ${barrio.name}, Montevideo`;
+const description = `Armado de muebles a domicilio en ${barrio.name}, Montevideo. Armamos roperos, camas, escritorios, racks y más. Llevamos las herramientas y damos garantía. Cotizá por WhatsApp.`;
+const whatsappMessage = `Hola, quisiera una cotización para armar un mueble en ${barrio.name}, Montevideo.`;
+
+const nearbyBarrios = barrio.nearby
+  .map((s) => neighborhoods.find((n) => n.slug === s))
+  .filter(Boolean);
+
+// FAQs propias del barrio + dos comunes (traslado y precio) para cubrir la intención básica.
+const faqItems = [
+  ...barrio.faqs,
+  {
+    q: `¿El traslado a ${barrio.name} tiene costo?`,
+    a: `No. El traslado dentro de Montevideo está incluido en el precio del servicio.`,
+  },
+  {
+    q: `¿Cuánto cuesta armar un mueble en ${barrio.name}?`,
+    a: `El precio depende del tipo de mueble. Podés ver la lista completa en la página de precios y, para un valor exacto, mandanos una foto por WhatsApp sin compromiso.`,
+  },
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": `Armado de muebles a domicilio en ${barrio.name}`,
+    "description": description,
+    "provider": { "@id": "https://armadoresmontevideo.uy/#organization" },
+    "areaServed": { "@type": "Place", "name": `${barrio.name}, Montevideo, Uruguay` },
+    "serviceType": "Armado de Muebles",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://armadoresmontevideo.uy/" },
+      { "@type": "ListItem", "position": 2, "name": "Servicios", "item": "https://armadoresmontevideo.uy/servicios/" },
+      { "@type": "ListItem", "position": 3, "name": `Armador de muebles en ${barrio.name}`, "item": `https://armadoresmontevideo.uy/armador-de-muebles-en-${barrio.slug}/` },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map((f) => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a },
+    })),
+  },
+];
+---
+
+<Layout title={title} description={description} schema={schema}>
+  <Container>
+    <PageHero
+      title={`Armado de Muebles a Domicilio en ${barrio.name}`}
+      description={barrio.intro}
+      whatsappMessage={whatsappMessage}
+      breadcrumbs={[
+        { label: "Inicio", href: "/" },
+        { label: "Servicios", href: "/servicios/" },
+        { label: barrio.name },
+      ]}
+    />
+  </Container>
+
+  <Container>
+    <article class="prose prose-lg mx-auto mt-12 max-w-3xl">
+      <h2>Armador de muebles en {barrio.name}</h2>
+      <p>{barrio.intro}</p>
+      <p>{barrio.context}</p>
+
+      <h3>Lo que más armamos en {barrio.name}</h3>
+      <ul>
+        {barrio.highlights.map((h) => <li>{h}</li>)}
+      </ul>
+
+      <h2>¿Qué muebles armamos en {barrio.name}?</h2>
+      <p>Estos son los servicios de armado que ofrecemos a domicilio en {barrio.name} y en todo Montevideo:</p>
+    </article>
+
+    <div class="mx-auto max-w-3xl grid sm:grid-cols-2 gap-4 mt-6">
+      {services.map((service) => (
+        <a href={`/servicio/${service.slug}/`} class="block p-4 border rounded-md hover:bg-gray-100 transition">
+          <h3 class="text-lg font-semibold">{service.data.menu}</h3>
+        </a>
+      ))}
+    </div>
+
+    <article class="prose prose-lg mx-auto mt-12 max-w-3xl">
+      <h2>¿Cómo trabajamos?</h2>
+      <ol>
+        <li><strong>Nos mandás una foto</strong> del mueble por WhatsApp y te pasamos el precio sin compromiso.</li>
+        <li><strong>Coordinamos día y hora</strong> en {barrio.name} que te quede cómodo, de lunes a sábado.</li>
+        <li><strong>Vamos con las herramientas</strong> y armamos todo en tu casa.</li>
+        <li><strong>Dejamos todo listo</strong>, nivelado y con garantía.</li>
+      </ol>
+
+      <h2>Precios del armado en {barrio.name}</h2>
+      <p>
+        Los precios dependen del tipo de mueble. Podés ver la <a href="/precios/">lista completa de precios</a> y,
+        para un valor exacto, mandanos una foto por <a href="https://wa.me/59895881009" target="_blank" rel="noopener">WhatsApp</a>.
+        El traslado dentro de Montevideo está incluido.
+      </p>
+    </article>
+
+    {barrio.testimonial && (
+      <figure class="mx-auto max-w-3xl mt-12 bg-slate-50 border border-slate-200 rounded-lg p-6">
+        <div class="flex gap-1 mb-3">
+          {[1, 2, 3, 4, 5].map(() => (
+            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+          ))}
+        </div>
+        <blockquote class="text-slate-700 leading-relaxed">"{barrio.testimonial.text}"</blockquote>
+        <figcaption class="mt-3 text-sm text-slate-500">
+          <span class="font-semibold text-slate-800">{barrio.testimonial.name}</span> — {barrio.name}, {barrio.testimonial.service}
+        </figcaption>
+      </figure>
+    )}
+
+    <div class="mx-auto max-w-3xl text-center my-10 flex flex-wrap gap-3 justify-center">
+      <BtnWhatsapp message={whatsappMessage} label={`Cotizar armado en ${barrio.name}`} />
+    </div>
+
+    <article class="prose prose-lg mx-auto mt-12 max-w-3xl">
+      <h2>Preguntas frecuentes — {barrio.name}</h2>
+      {faqItems.map((f) => (
+        <>
+          <h3>{f.q}</h3>
+          <p>{f.a}</p>
+        </>
+      ))}
+    </article>
+
+    {nearbyBarrios.length > 0 && (
+      <div class="mx-auto max-w-3xl mt-12">
+        <h2 class="text-2xl font-bold">Armado de muebles en barrios cercanos</h2>
+        <div class="grid sm:grid-cols-2 gap-4 mt-4">
+          {nearbyBarrios.map((n) => (
+            <a href={`/armador-de-muebles-en-${n.slug}/`} class="block p-4 border rounded-md hover:bg-gray-100 transition">
+              <h3 class="text-lg font-semibold">Armador de muebles en {n.name}</h3>
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <Cta />
+  </Container>
+</Layout>

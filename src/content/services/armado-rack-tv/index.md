@@ -41,7 +41,7 @@ No, llevamos todo.
 Sí, de lunes a sábado.
 
 **¿Pueden montar la TV en la pared?**
-Sí, si tenés el soporte lo instalamos. Si no lo tenés, consultanos y te orientamos.
+Sí. Si tenés el soporte lo instalamos. Mirá nuestro servicio de [instalación de soporte de TV en la pared](/servicio/instalacion-soporte-tv-pared/). Si no lo tenés, consultanos y te orientamos.
 
 **¿Qué pasa si faltan piezas?**
 Te avisamos para que reclames al vendedor.
