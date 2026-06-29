@@ -1,5 +1,5 @@
 ---
-title: Instalación de Soporte de TV en la Pared a Domicilio en Montevideo
+title: Instalación de Soporte de TV en Montevideo
 description: Instalamos el soporte de tu TV en la pared a domicilio en Montevideo. Montaje firme y seguro de soportes fijos, inclinables y articulados, con nivel y cables ordenados. Pedí tu cotización por WhatsApp.
 menu: Instalación de Soporte de TV
 ---
