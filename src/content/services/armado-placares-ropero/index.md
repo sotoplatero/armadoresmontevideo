@@ -1,6 +1,6 @@
 ---
-title: Armador de Roperos en Montevideo
-description: Armado profesional de roperos y placares a domicilio en Montevideo. Montaje seguro de roperos de 2 a 8 puertas, corredizos y con espejo. Precios claros y garantía.
+title: Armado de Roperos y Placares en Montevideo — Desde $700
+description: Armamos tu ropero o placard a domicilio en Montevideo, desde $700. De 2 a 8 puertas, corredizos y con espejo, de cualquier marca. Con garantía. Cotizá por WhatsApp.
 menu: Armado de Roperos/Placard
 ---
 
@@ -14,14 +14,14 @@ Armamos roperos de todo tipo: de 2 a 8 puertas, con puertas corredizas, con espe
 
 | Artículo                                           | Precio  |
 |----------------------------------------------------|---------|
-| Placard 2 puertas con cajones                     | $800    |
-| Placard 4 puertas con cajones                     | $1200   |
-| Placard 6 puertas con cajones                     | $1400   |
-| Placard 8 puertas con cajones                     | $1600   |
-| Placard 2 puertas corredizas y cajones            | $1200   |
-| Placard 3 puertas corredizas con espejo y cajones | $1800   |
+| Placard 2 puertas con cajones                     | $700    |
+| Placard 4 puertas con cajones                     | $1000   |
+| Placard 6 puertas con cajones                     | $1300   |
+| Placard 8 puertas con cajones                     | $1500   |
+| Placard 2 puertas corredizas y cajones            | $1100   |
+| Placard 3 puertas corredizas con espejo y cajones | $1600   |
 
-Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. [Ver todos los precios](/precios).
+Estos precios son orientativos: el precio final depende del modelo y tamaño del ropero. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días — y si lo necesitás hoy, armamos en el día sin recargo. [Ver todos los precios](/precios).
 
 ---
 

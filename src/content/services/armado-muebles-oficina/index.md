@@ -24,11 +24,11 @@ Trabajamos con cualquier marca y cantidad. Si tenés varios muebles, los armamos
 
 | Artículo | Precio |
 |----------|--------|
-| Silla de oficina | $600 |
-| Escritorios operativos y de hogar | $800 |
+| Silla de oficina | $350 |
+| Escritorios operativos y de hogar | $650 |
 | Escritorios gerenciales y de reunión | $900 |
 
-Estos precios son orientativos. Mandanos las fotos por [WhatsApp](https://wa.me/59895881009) y te hacemos un presupuesto. [Ver todos los precios](/precios).
+Estos precios son orientativos: el precio final depende del modelo y la cantidad. Mandanos las fotos por [WhatsApp](https://wa.me/59895881009) y te hacemos un presupuesto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos los precios](/precios).
 
 ---
 

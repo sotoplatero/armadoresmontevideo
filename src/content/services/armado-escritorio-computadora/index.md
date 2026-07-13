@@ -24,10 +24,10 @@ Llevamos las herramientas y seguimos las instrucciones del fabricante. Antes de 
 
 | Artículo | Precio |
 |----------|--------|
-| Escritorios componibles, operativos y de hogar | $800 |
+| Escritorios componibles, operativos y de hogar | $650 |
 | Escritorios gerenciales y de reunión | $900 |
 
-Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. [Ver todos los precios](/precios).
+Estos precios son orientativos: el precio final depende del modelo y tamaño del escritorio. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos los precios](/precios).
 
 ---
 

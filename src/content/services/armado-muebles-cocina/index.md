@@ -23,10 +23,10 @@ Vamos a tu casa en Montevideo, armamos todo y dejamos la cocina lista. Trabajamo
 
 | Artículo | Precio |
 |----------|--------|
-| Módulo de cocina o aéreo simple | $1200 |
-| Cocina completa (varios módulos) | $2500 |
+| Módulo de cocina o aéreo | $600 c/u |
+| Cocina completa (varios módulos) | $600 por módulo |
 
-Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. [Ver todos los precios](/precios).
+Estos precios son orientativos: el precio final depende de la cantidad y complejidad de los módulos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos los precios](/precios).
 
 ---
 

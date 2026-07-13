@@ -14,13 +14,14 @@ const preciosSchema = [
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://armadoresmontevideo.uy/" },
-      { "@type": "ListItem", "position": 2, "name": "Precios", "item": "https://armadoresmontevideo.uy/precios" }
+      { "@type": "ListItem", "position": 2, "name": "Precios", "item": "https://armadoresmontevideo.uy/precios/" }
     ]
   },
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
+      { "@type": "Question", "name": "¿Cuánto cobra un armador de muebles en Uruguay?", "acceptedAnswer": { "@type": "Answer", "text": "En Uruguay, un armador de muebles cobra entre $350 y $1.600 por mueble según el tipo y la complejidad: una mesa de luz $350, una cama $700, un escritorio o rack $650, un placard de 4 puertas $1.000 y uno de 3 puertas corredizas con espejo $1.600. Son precios orientativos: el precio final depende del modelo, el tamaño y la cantidad de piezas de cada mueble. El traslado dentro de Montevideo está incluido y la cotización por WhatsApp es gratis." } },
       { "@type": "Question", "name": "¿Los precios incluyen IVA?", "acceptedAnswer": { "@type": "Answer", "text": "Sí, todos los precios mostrados en la tabla incluyen IVA." } },
       { "@type": "Question", "name": "¿Hay costo adicional por el traslado?", "acceptedAnswer": { "@type": "Answer", "text": "El traslado dentro de Montevideo está incluido en el precio. Para zonas fuera del área metropolitana, puede aplicar un cargo adicional según la distancia." } },
       { "@type": "Question", "name": "¿Hay descuento por armar varios muebles?", "acceptedAnswer": { "@type": "Answer", "text": "Sí, ofrecemos descuentos especiales cuando se requiere el armado de múltiples muebles en la misma visita. Contáctanos para una cotización personalizada." } },
@@ -34,7 +35,7 @@ const preciosSchema = [
 ];
 ---
 
-<Layout title="Armado de Muebles a Domicilio: Precios desde $500" description="Precios para armar muebles a domicilio en Montevideo: roperos, camas, racks y escritorios desde $500. Cotización gratis por WhatsApp, sin compromiso." schema={preciosSchema}>
+<Layout title="Armado de Muebles a Domicilio: Precios desde $350" description="Precios orientativos para armar muebles a domicilio en Montevideo: roperos, camas, racks y escritorios desde $350. Traslado y garantía incluidos. Cotizá gratis por WhatsApp." schema={preciosSchema}>
 
     <Container>
         
@@ -44,37 +45,42 @@ const preciosSchema = [
     <p>Los precios de armado presentados en esta página son aproximados y pueden variar dependiendo del tipo de mueble y la complejidad del montaje.</p>
     <p>Para obtener una cotización más precisa <strong>sin compromiso</strong>, es necesario <a href="https://wa.me/59895881009" target="_blank">contactarnos</a> y enviar una foto del mueble que necesita ser armado.</p>
     <p>Esto nos permitirá evaluar mejor el trabajo y ofrecerle un precio ajustado a sus necesidades específicas.</p>
-    
-    <h2>Tabla de Precios</h2>
-    <p>Los precios de armado presentados en esta página son aproximados y pueden variar dependiendo del tipo de mueble y la complejidad del montaje.</p>
+
+    <h2>¿Cuánto cobra un armador de muebles en Uruguay?</h2>
+    <p>En Uruguay, un armador de muebles profesional cobra <strong>entre $350 y $1.600 por mueble</strong>, según el tipo y la complejidad del armado. Como referencia: una mesa de luz cuesta $350, una cama $700, un escritorio o rack para TV $650, un placard de 4 puertas $1.000 y un placard de 3 puertas corredizas con espejo $1.600.</p>
+    <p><strong>Tené en cuenta que son precios orientativos:</strong> el precio final depende del modelo, el tamaño y la cantidad de piezas de cada mueble. Dos placards de "4 puertas" de marcas distintas pueden llevar tiempos de armado muy diferentes. Por eso, mandanos una foto por WhatsApp y te confirmamos el precio exacto antes de coordinar.</p>
+    <p>El traslado dentro de Montevideo está incluido en el precio, la cotización es gratuita y hay descuentos si armamos varios muebles en la misma visita. Abajo tenés la tabla completa de precios.</p>
+
+    <h2>Tabla de Precios Orientativos</h2>
+    <p>Todos los precios de la tabla son <strong>orientativos</strong> y pueden variar según el modelo, el tamaño y la complejidad de cada mueble. El precio exacto te lo confirmamos gratis con una foto por WhatsApp.</p>
     <div class="not-prose overflow-x-auto rounded-lg border border-slate-200 shadow-sm">
         <table class="w-full text-left text-sm">
             <thead class="bg-slate-800 text-white">
                 <tr>
                     <th class="px-4 py-3 font-semibold">Artículo</th>
-                    <th class="px-4 py-3 font-semibold text-right whitespace-nowrap">Precio</th>
+                    <th class="px-4 py-3 font-semibold text-right whitespace-nowrap">Precio orientativo</th>
                 </tr>
             </thead>
             <tbody class="divide-y divide-slate-200">
                 <tr class="hover:bg-slate-50 transition-colors">
                     <td class="px-4 py-3">Mesa de luz</td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 500 c/u</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 350 c/u</td>
                 </tr>
                 <tr class="bg-slate-50/50 hover:bg-slate-100 transition-colors">
                     <td class="px-4 py-3">Sillas de oficina / Silla Comedor Individual</td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 600 c/u</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 350 c/u</td>
                 </tr>
                 <tr class="hover:bg-slate-50 transition-colors">
-                    <td class="px-4 py-3"><a href="/servicio/armado-comodas" class="text-indigo-600 hover:underline">Cómodas y Zapateras</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 800</td>
+                    <td class="px-4 py-3"><a href="/servicio/armado-comodas" class="text-indigo-600 hover:underline">Zapateras</a></td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 600</td>
                 </tr>
                 <tr class="bg-slate-50/50 hover:bg-slate-100 transition-colors">
                     <td class="px-4 py-3">Mesa Central, Lateral y Consolas</td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 800</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 600</td>
                 </tr>
                 <tr class="hover:bg-slate-50 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-multiusos-estanteria" class="text-indigo-600 hover:underline">Bibliotecas, Racks y Multiusos</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 800</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 650</td>
                 </tr>
                 <tr class="bg-slate-50/50 hover:bg-slate-100 transition-colors">
                     <td class="px-4 py-3">Set Respaldo y Mesas de Luz</td>
@@ -82,39 +88,39 @@ const preciosSchema = [
                 </tr>
                 <tr class="hover:bg-slate-50 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-juego-camas" class="text-indigo-600 hover:underline">Camas Simples 1 y 2 Plazas</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 600</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 700</td>
                 </tr>
                 <tr class="bg-slate-50/50 hover:bg-slate-100 transition-colors">
                     <td class="px-4 py-3">Box</td>
                     <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 600</td>
                 </tr>
                 <tr class="hover:bg-slate-50 transition-colors">
-                    <td class="px-4 py-3"><a href="/servicio/armado-juego-comedor" class="text-indigo-600 hover:underline">Comedores, Desayunadores hasta 4 Sillas</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1200</td>
+                    <td class="px-4 py-3"><a href="/servicio/armado-juego-comedor" class="text-indigo-600 hover:underline">Desayunadores hasta 4 Sillas</a></td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 700</td>
                 </tr>
                 <tr class="bg-slate-50/50 hover:bg-slate-100 transition-colors">
                     <td class="px-4 py-3">Tandem</td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 649</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 600</td>
                 </tr>
                 <tr class="hover:bg-slate-50 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-escritorio-computadora" class="text-indigo-600 hover:underline">Escritorios Componibles, Operativos y de Hogar</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 800</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 650</td>
                 </tr>
                 <tr class="bg-slate-50/50 hover:bg-slate-100 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-muebles-cocina" class="text-indigo-600 hover:underline">Módulos de Cocina o Aéreos</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1200 - 2500</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 600 por módulo</td>
                 </tr>
                 <tr class="hover:bg-slate-50 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-juego-camas" class="text-indigo-600 hover:underline">Camas Marineras y Tricamas</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1700</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1000</td>
                 </tr>
                 <tr class="bg-slate-50/50 hover:bg-slate-100 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-juego-comedor" class="text-indigo-600 hover:underline">Juego de Comedor 4 sillas</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1200</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1000</td>
                 </tr>
                 <tr class="hover:bg-slate-50 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-juego-comedor" class="text-indigo-600 hover:underline">Juego de Comedor 6 sillas</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1400</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1300</td>
                 </tr>
                 <tr class="bg-slate-50/50 hover:bg-slate-100 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-juego-comedor" class="text-indigo-600 hover:underline">Juego de Comedor 8 sillas</a></td>
@@ -122,27 +128,27 @@ const preciosSchema = [
                 </tr>
                 <tr class="hover:bg-slate-50 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-placares-ropero" class="text-indigo-600 hover:underline">Placard 2 puertas con cajones</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 800</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 700</td>
                 </tr>
                 <tr class="bg-slate-50/50 hover:bg-slate-100 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-placares-ropero" class="text-indigo-600 hover:underline">Placard 4 puertas con cajones</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1200</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1000</td>
                 </tr>
                 <tr class="hover:bg-slate-50 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-placares-ropero" class="text-indigo-600 hover:underline">Placard 6 puertas con cajones</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1400</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1300</td>
                 </tr>
                 <tr class="bg-slate-50/50 hover:bg-slate-100 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-placares-ropero" class="text-indigo-600 hover:underline">Placard 8 puertas con cajones</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1600</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1500</td>
                 </tr>
                 <tr class="hover:bg-slate-50 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-placares-ropero" class="text-indigo-600 hover:underline">Placard 2 puertas corredizas y cajones</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1200</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1100</td>
                 </tr>
                 <tr class="bg-slate-50/50 hover:bg-slate-100 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-placares-ropero" class="text-indigo-600 hover:underline">Placard 3 puertas corredizas con espejo y cajones</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1800</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1600</td>
                 </tr>
                 <tr class="hover:bg-slate-50 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-comodas" class="text-indigo-600 hover:underline">Cómodas y Cajoneras (hasta 5 cajones)</a></td>
@@ -158,7 +164,7 @@ const preciosSchema = [
                 </tr>
                 <tr class="bg-slate-50/50 hover:bg-slate-100 transition-colors">
                     <td class="px-4 py-3"><a href="/servicio/armado-cuna" class="text-indigo-600 hover:underline">Cunas</a></td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 900</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 700</td>
                 </tr>
                 <tr class="hover:bg-slate-50 transition-colors">
                     <td class="px-4 py-3">Cuchetas</td>
@@ -166,15 +172,27 @@ const preciosSchema = [
                 </tr>
                 <tr class="bg-slate-50/50 hover:bg-slate-100 transition-colors">
                     <td class="px-4 py-3">Tricamas</td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1700</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1000</td>
                 </tr>
                 <tr class="hover:bg-slate-50 transition-colors">
                     <td class="px-4 py-3">Tricamas con ropero</td>
-                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1500</td>
+                    <td class="px-4 py-3 text-right whitespace-nowrap font-medium">$ 1400</td>
                 </tr>
             </tbody>
         </table>
     </div>
+
+    <h2>¿Qué incluye el precio? Nuestras ventajas</h2>
+    <p>A diferencia de otros servicios de armado, nuestro precio es <strong>final y sin sorpresas</strong>. Esto es lo que incluye siempre:</p>
+    <ul>
+        <li><strong>Traslado gratis dentro de Montevideo</strong> — otros armadores cobran el viaje aparte.</li>
+        <li><strong>Armado en el día sin recargo</strong> — si necesitás el mueble hoy, coordinamos sin cargo extra por urgencia (otros servicios cobran hasta $490 adicionales por agenda express).</li>
+        <li><strong>Herramientas incluidas</strong> — llegamos con todo lo necesario, no tenés que conseguir nada.</li>
+        <li><strong>Garantía de 30 días</strong> — si algo no queda bien, volvemos y lo arreglamos sin costo.</li>
+        <li><strong>Precio exacto antes de confirmar</strong> — nos mandás una foto por <a href="https://wa.me/59895881009" target="_blank">WhatsApp</a> y te pasamos el precio cerrado, gratis y sin compromiso.</li>
+        <li><strong>Pagás al final</strong> — en efectivo o Prex, recién cuando el mueble está armado, nivelado y verificado.</li>
+        <li><strong>Descuento por varios muebles</strong> — si armamos más de un mueble en la misma visita, el precio por mueble baja.</li>
+    </ul>
 
     <h2>Transporte y Barrios Cubiertos</h2>
     <p>Ofrecemos transporte gratuito dentro de Montevideo para todos nuestros servicios. Sin embargo, es importante tener en cuenta que NO realizamos el servicio de armado en los siguientes barrios:</p>
@@ -229,7 +247,7 @@ const preciosSchema = [
 
         <div>
             <p  class="text-xl font-semibold mb-4">¿Los precios incluyen desarme de muebles?</p>
-            <p >No, los precios mostrados son solo por armado. Si necesitas servicio de desarme, consúltanos por el costo adicional.</p>
+            <p >No, los precios mostrados son solo por armado. Si te mudás y necesitás desarmar y volver a armar tus muebles, mirá nuestro <a href="/servicio/desarme-armado-muebles-mudanza/" class="text-indigo-600 hover:underline">servicio de desarme y armado para mudanzas</a>.</p>
         </div>
 
         <div>

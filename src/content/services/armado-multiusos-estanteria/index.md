@@ -23,9 +23,9 @@ Trabajamos con todo tipo de estanterías, racks, bibliotecas y muebles modulares
 
 | Artículo | Precio |
 |----------|--------|
-| Bibliotecas, racks y multiusos | $800 |
+| Bibliotecas, racks y multiusos | $650 |
 
-Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. [Ver todos los precios](/precios).
+Estos precios son orientativos: el precio final depende del modelo y tamaño del mueble. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos los precios](/precios).
 
 ---
 

@@ -28,7 +28,7 @@ Si además compraste un **rack o mueble para el living**, también [armamos rack
 |----------|--------|
 | Instalación de soporte de TV en pared (soporte incluido por el cliente) | $800 |
 
-Estos precios son orientativos. El valor final depende del tipo de pared y del soporte. Mandanos una foto de la TV y del lugar por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. [Ver todos los precios](/precios/).
+Estos precios son orientativos. El valor final depende del tipo de pared y del soporte. Mandanos una foto de la TV y del lugar por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos los precios](/precios/).
 
 ---
 

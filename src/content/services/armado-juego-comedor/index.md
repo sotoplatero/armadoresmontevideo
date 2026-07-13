@@ -25,13 +25,12 @@ El proceso es simple: nos mandás una foto del mueble por [WhatsApp](https://wa.
 
 | Artículo                                      | Precio       |
 |-----------------------------------------------|-------------|
-| Comedores, Desayunadores Hasta 4 Sillas      | $ 600       |
-| Juego de Comedor 4 sillas                    | $ 850       |
-| Juego de Comedor 6 sillas                    | $ 1200      |
-| Juego de Comedor mayor a 6 sillas            | $ 1500      |
-| Comedores Hasta 6 Sillas                     | $ 900       |
+| Desayunadores hasta 4 Sillas                 | $ 700       |
+| Juego de Comedor 4 sillas                    | $ 1000      |
+| Juego de Comedor 6 sillas                    | $ 1300      |
+| Juego de Comedor mayor a 6 sillas            | $ 1600      |
 
-Los precios son orientativos. Mandanos una foto y te damos el precio exacto. [Ver todos nuestros precios](/precios).
+Los precios son orientativos: el precio final depende del modelo y la cantidad de sillas. Mandanos una foto y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos nuestros precios](/precios).
 
 ---
 

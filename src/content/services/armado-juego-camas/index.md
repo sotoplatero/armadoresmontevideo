@@ -24,12 +24,12 @@ Trabajamos con todas las marcas. Llevamos las herramientas, seguimos las instruc
 
 | Artículo                          | Precio     |
 |-----------------------------------|-----------|
-| Camas Simples 1 y 2 Plazas        | $ 600     |
-| Camas Marineras y Tricamas        | $ 800     |
+| Camas Simples 1 y 2 Plazas        | $ 700     |
+| Camas Marineras y Tricamas        | $ 1000    |
 | Cuchetas                          | $ 1200    |
 | Multicamas y Camas Funcionales    | $ 1000    |
 
-Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. [Ver todos nuestros precios](/precios).
+Estos precios son orientativos: el precio final depende del modelo y tamaño de la cama. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días — y si la necesitás hoy, la armamos en el día sin recargo. [Ver todos nuestros precios](/precios).
 
 ---
 

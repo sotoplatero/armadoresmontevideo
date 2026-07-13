@@ -16,9 +16,9 @@ Armamos cómodas de todo tipo y tamaño, cajoneras, zapateras y chifoniers. Trab
 |---|---|
 | Cómodas y Cajoneras (hasta 5 cajones) | $ 600 |
 | Cómodas y Cajoneras (6 o más cajones) | $ 900 |
-| Zapateras | $ 800 |
+| Zapateras | $ 600 |
 
-Precios orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) para el precio exacto. [Ver todos los precios](/precios).
+Precios orientativos: el precio final depende del modelo y la cantidad de cajones. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) para el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos los precios](/precios).
 
 ---
 

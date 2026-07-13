@@ -4,7 +4,7 @@ description: Armado profesional de racks y muebles para TV en Montevideo. Montaj
 menu: Montaje de Rack para TV
 ---
 
-¿Compraste un rack o mueble para TV y necesitás que alguien lo arme? Nosotros vamos a tu casa en Montevideo y lo dejamos listo. También podemos montar la TV en la pared si lo necesitás.
+¿Compraste un rack o mueble para TV y necesitás que alguien lo arme? Nosotros vamos a tu casa en Montevideo y lo dejamos listo. También podemos [instalar el soporte de la TV en la pared](/servicio/instalacion-soporte-tv-pared/) si lo necesitás.
 
 Armamos racks, centros de entretenimiento, muebles con estantes y cualquier mueble de living para equipos electrónicos.
 
@@ -13,7 +13,7 @@ Armamos racks, centros de entretenimiento, muebles con estantes y cualquier mueb
 ## ¿Qué hacemos?
 
 - Armado de racks y muebles para TV
-- Montaje de TV en la pared (soporte incluido si lo tenés)
+- [Instalación de soporte de TV en la pared](/servicio/instalacion-soporte-tv-pared/)
 - Armado de centros de entretenimiento
 - Estantes y repisas flotantes
 
@@ -23,9 +23,9 @@ Armamos racks, centros de entretenimiento, muebles con estantes y cualquier mueb
 
 | Artículo | Precio |
 |----------|--------|
-| Rack para TV / centro de entretenimiento | $800 |
+| Rack para TV / centro de entretenimiento | $650 |
 
-Estos precios son orientativos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. [Ver todos los precios](/precios).
+Estos precios son orientativos: el precio final depende del modelo y tamaño del mueble. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días — y si lo necesitás hoy, armamos en el día sin recargo. [Ver todos los precios](/precios).
 
 ---
 
