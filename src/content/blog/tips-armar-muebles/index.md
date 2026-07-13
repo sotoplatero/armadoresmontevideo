@@ -1,6 +1,6 @@
 ---
-title: "Tips para armar muebles: Guía completa para un armar muebles en casa"
-description: Descubre los mejores tips para armar muebles de manera eficiente y sin complicaciones. Sigue nuestra guía completa para un ensamblaje perfecto y disfruta de tus nuevos muebles.
+title: "Cómo armar un mueble paso a paso: guía completa con tips de armadores profesionales"
+description: Aprendé cómo armar un mueble paso a paso sin errores. Guía con instrucciones y tips de armadores profesionales, y qué hacer si preferís no armarlo vos.
 date: "2024-06-08"
 category: "tips"
 ---

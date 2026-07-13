@@ -16,7 +16,12 @@ export interface Props {
   schema?: Record<string, any>;
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+// Canonical siempre con barra final para no dividir señales entre /pagina y /pagina/
+// (el hosting sirve ambas variantes; GSC las reportaba mezcladas).
+const canonicalPath = Astro.url.pathname.endsWith("/")
+  ? Astro.url.pathname
+  : Astro.url.pathname + "/";
+const canonicalURL = new URL(canonicalPath, Astro.site).toString();
 
 const localBusinessSchema = {
   "@context": "https://schema.org",

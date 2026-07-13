@@ -1,8 +1,8 @@
 import type { Metadata, Site, Socials } from "@types";
 
 export const SITE: Site = {
-  TITLE: "Armador de Muebles a Domicilio en Montevideo | Armadores",
-  DESCRIPTION: "Armadores de muebles a domicilio en Montevideo. Armamos roperos, camas, escritorios y racks, con herramientas y garantía. Cotizá gratis por WhatsApp.",
+  TITLE: "Armador de Muebles a Domicilio en Montevideo | Desde $350",
+  DESCRIPTION: "Armamos roperos, camas, racks y escritorios en tu casa, en el día. Precios desde $350, con herramientas y garantía de 30 días. Cotizá gratis por WhatsApp.",
   EMAIL: "contacto@armadoresmontevideo.uy",
   NUM_POSTS_ON_HOMEPAGE: 6,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
@@ -48,6 +48,10 @@ export const reviews = [
 export interface Neighborhood {
   name: string;
   slug: string;
+  // Ciudad/departamento para zonas fuera de Montevideo (default: "Montevideo").
+  city?: string;
+  // true si el traslado puede tener cargo adicional (zonas fuera de Montevideo).
+  extraTravelCharge?: boolean;
   intro: string;
   context: string;
   highlights: string[];
@@ -179,7 +183,7 @@ export const neighborhoods: Neighborhood[] = [
         a: "Sí, cubrimos Carrasco con traslado incluido. Confirmanos la dirección al pedir el presupuesto.",
       },
     ],
-    nearby: ["buceo", "pocitos"],
+    nearby: ["buceo", "pocitos", "ciudad-de-la-costa"],
   },
   {
     name: "Buceo",
@@ -205,6 +209,33 @@ export const neighborhoods: Neighborhood[] = [
       },
     ],
     nearby: ["pocitos", "carrasco", "punta-carretas"],
+  },
+  {
+    name: "Ciudad de la Costa",
+    slug: "ciudad-de-la-costa",
+    city: "Canelones",
+    extraTravelCharge: true,
+    intro:
+      "Ciudad de la Costa —Solymar, Lagomar, El Pinar, Shangrilá y alrededores— es una de las zonas que más crece del área metropolitana, con casas nuevas y familias que se mudan desde Montevideo. Vamos hasta tu casa, armamos roperos, camas, comedores y racks, y te dejamos todo nivelado y funcionando.",
+    context:
+      "En la zona predominan las casas, así que los trabajos suelen ser de mayor porte: dormitorios completos, placares grandes, comedores y muebles de jardín. Coordinamos la visita por adelantado para aprovechar el viaje y armar todo lo que necesites de una sola vez; si tenés varios muebles, te conviene juntarlos en una misma visita.",
+    highlights: [
+      "Cobertura en Solymar, Lagomar, El Pinar, Shangrilá y zonas cercanas",
+      "Dormitorios completos y placares grandes en una visita",
+      "Comedores, racks de TV y muebles de jardín",
+      "Coordinación previa de día y hora para aprovechar el viaje",
+    ],
+    faqs: [
+      {
+        q: "¿A qué balnearios de Ciudad de la Costa llegan?",
+        a: "Cubrimos Solymar, Lagomar, El Pinar, Shangrilá, San José de Carrasco y zonas cercanas de la Costa de Oro. Confirmanos tu dirección por WhatsApp y te decimos en el momento si llegamos.",
+      },
+      {
+        q: "¿Conviene juntar varios muebles en una sola visita?",
+        a: "Sí. Como el traslado es más largo que dentro de Montevideo, si juntás varios muebles en una misma visita el costo por mueble te queda más conveniente. Pasanos la lista y te cotizamos todo junto.",
+      },
+    ],
+    nearby: ["carrasco"],
   },
 ];
 

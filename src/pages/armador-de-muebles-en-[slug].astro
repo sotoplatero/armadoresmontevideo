@@ -19,9 +19,12 @@ const { barrio, services, index } = Astro.props;
 // Reseña real de Google (rotando por barrio) como prueba social, sin atribuirla al barrio.
 const review = reviews[index % reviews.length];
 
-const title = `Armador de Muebles en ${barrio.name}, Montevideo`;
-const description = `Armado de muebles a domicilio en ${barrio.name}, Montevideo. Armamos roperos, camas, escritorios, racks y más. Llevamos las herramientas y damos garantía. Cotizá por WhatsApp.`;
-const whatsappMessage = `Hola, quisiera una cotización para armar un mueble en ${barrio.name}, Montevideo.`;
+// Zonas fuera de Montevideo (ej. Ciudad de la Costa) declaran su ciudad/departamento.
+const city = barrio.city ?? "Montevideo";
+
+const title = `Armador de Muebles en ${barrio.name}, ${city}`;
+const description = `Armado de muebles a domicilio en ${barrio.name}, ${city}. Armamos roperos, camas, escritorios, racks y más. Llevamos las herramientas y damos garantía. Cotizá por WhatsApp.`;
+const whatsappMessage = `Hola, quisiera una cotización para armar un mueble en ${barrio.name}, ${city}.`;
 
 const nearbyBarrios = barrio.nearby
   .map((s) => neighborhoods.find((n) => n.slug === s))
@@ -32,7 +35,9 @@ const faqItems = [
   ...barrio.faqs,
   {
     q: `¿El traslado a ${barrio.name} tiene costo?`,
-    a: `No. El traslado dentro de Montevideo está incluido en el precio del servicio.`,
+    a: barrio.extraTravelCharge
+      ? `El traslado a ${barrio.name} puede tener un cargo adicional según la zona exacta. Te lo confirmamos junto con la cotización por WhatsApp, sin compromiso.`
+      : `No. El traslado dentro de Montevideo está incluido en el precio del servicio.`,
   },
   {
     q: `¿Cuánto cuesta armar un mueble en ${barrio.name}?`,
@@ -47,7 +52,7 @@ const schema = [
     "name": `Armado de muebles a domicilio en ${barrio.name}`,
     "description": description,
     "provider": { "@id": "https://armadoresmontevideo.uy/#organization" },
-    "areaServed": { "@type": "Place", "name": `${barrio.name}, Montevideo, Uruguay` },
+    "areaServed": { "@type": "Place", "name": `${barrio.name}, ${city}, Uruguay` },
     "serviceType": "Armado de Muebles",
   },
   {
@@ -97,7 +102,7 @@ const schema = [
       </ul>
 
       <h2>¿Qué muebles armamos en {barrio.name}?</h2>
-      <p>Estos son los servicios de armado que ofrecemos a domicilio en {barrio.name} y en todo Montevideo:</p>
+      <p>Estos son los servicios de armado que ofrecemos a domicilio en {barrio.name} y en toda la zona:</p>
     </article>
 
     <div class="mx-auto max-w-3xl grid sm:grid-cols-2 gap-4 mt-6">
@@ -121,7 +126,9 @@ const schema = [
       <p>
         Los precios dependen del tipo de mueble. Podés ver la <a href="/precios/">lista completa de precios</a> y,
         para un valor exacto, mandanos una foto por <a href="https://wa.me/59895881009" target="_blank" rel="noopener">WhatsApp</a>.
-        El traslado dentro de Montevideo está incluido.
+        {barrio.extraTravelCharge
+          ? "El traslado se cotiza según la zona y te lo confirmamos junto con el precio."
+          : "El traslado dentro de Montevideo está incluido."}
       </p>
     </article>
 
