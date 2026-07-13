@@ -19,10 +19,10 @@ No, nuestros técnicos llevan todas las herramientas necesarias para el armado d
 El tiempo varía dependiendo del tipo y la complejidad del mueble. Generalmente, el armado de muebles sencillos puede tomar entre 30 minutos a 1 hora, mientras que los muebles más complejos pueden tomar varias horas.
 
 ### 4. ¿Puedo programar una cita para el mismo día?
-Ofrecemos citas el mismo día según la disponibilidad de nuestros técnicos. Recomendamos programar con anticipación para asegurar el horario deseado.
+Sí, según disponibilidad vamos el mismo día y **sin recargo por urgencia**. Escribinos temprano por WhatsApp y coordinamos.
 
 ### 5. ¿Cuáles son los costos del servicio de armado de muebles?
-Los costos varían según el tipo de mueble y la complejidad del armado. Proporcionamos una cotización previa basada en estos factores.
+Los precios van desde $350 (una mesa de luz) hasta $1.600 (un placard grande). Como referencia: una cama $700, un rack de TV $650, un placard de 4 puertas $1.000. Son precios orientativos que dependen del modelo — mirá la [tabla completa de precios](/precios/) o mandanos una foto y te confirmamos el precio exacto gratis.
 
 ### 6. ¿El servicio incluye la limpieza del área de trabajo?
 Sí, nuestros técnicos se aseguran de dejar el área de trabajo limpia y ordenada después de completar el armado del mueble.
@@ -40,7 +40,7 @@ Sí, puedes cambiar o cancelar tu cita con al menos 24 horas de anticipación si
 Aceptamos efectivo o transferencias por Prex. El pago se realiza una vez finalizado el trabajo a tu satisfacción.
 
 ### 11. ¿Cómo puedo programar un servicio de armado de muebles?
-Puedes programar una cita a través de nuestro sitio web directamente en [whatsapp](https://wa.me/59895881009).
+Mandanos una foto del mueble por [WhatsApp](https://wa.me/59895881009) y te respondemos con el precio y la fecha más próxima disponible.
 
 ### 12. ¿Ofrecen servicios adicionales como desmontaje o reubicación de muebles?
 Sí, también ofrecemos servicios de desmontaje y reubicación de muebles. Estos servicios pueden ser solicitados al programar tu cita.
@@ -49,9 +49,6 @@ Sí, también ofrecemos servicios de desmontaje y reubicación de muebles. Estos
 Sí, todos nuestros técnicos están capacitados y tienen amplia experiencia en el armado de muebles de diferentes tipos y marcas.
 
 ### 14. ¿Cubren toda la ciudad?
-Sí, ofrecemos nuestros servicios en todos los barrios de Montevideo. Cualquier duda puedes escribirnos en la pagina de [contacto](/contacto).
-
-### 15. ¿Qué medidas de seguridad e higiene toman durante el servicio?
-Nuestros técnicos siguen todas las recomendaciones de seguridad e higiene, si lo solicitas pueden trabajar con mascarillas para garantizar la seguridad de nuestros clientes y del personal.
+Sí, ofrecemos nuestros servicios en casi todos los barrios de Montevideo, con traslado incluido en el precio. También llegamos a Ciudad de la Costa. Cualquier duda escribinos por [WhatsApp](https://wa.me/59895881009) o desde la página de [contacto](/contacto).
 
 </div>

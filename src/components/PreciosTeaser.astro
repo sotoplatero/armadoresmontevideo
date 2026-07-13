@@ -1,0 +1,40 @@
+---
+const precios = [
+  { item: "Mesa de luz", precio: "$ 350" },
+  { item: "Rack de TV o biblioteca", precio: "$ 650" },
+  { item: "Escritorio", precio: "$ 650" },
+  { item: "Cama 1 o 2 plazas", precio: "$ 700" },
+  { item: "Placard 2 puertas", precio: "$ 700" },
+  { item: "Juego de comedor 4 sillas", precio: "$ 1000" },
+];
+---
+
+<div class="bg-slate-50 -mx-5 px-5 py-16 md:py-20 rounded-lg">
+  <div class="text-center max-w-2xl mx-auto">
+    <h2 class="text-3xl lg:text-4xl font-bold lg:tracking-tight">
+      ¿Cuánto cuesta?
+    </h2>
+    <p class="text-lg mt-4 text-slate-600">
+      Precios orientativos con traslado y garantía incluidos. El precio final
+      depende del modelo y te lo confirmamos gratis antes de coordinar.
+    </p>
+  </div>
+
+  <div class="max-w-2xl mx-auto mt-10 bg-white rounded-lg border border-slate-200 shadow-sm divide-y divide-slate-100">
+    {precios.map((p) => (
+      <div class="flex items-center justify-between px-6 py-4">
+        <span class="text-slate-700">{p.item}</span>
+        <span class="font-semibold text-slate-900 whitespace-nowrap">{p.precio}</span>
+      </div>
+    ))}
+  </div>
+
+  <div class="text-center mt-8">
+    <a href="/precios/" class="inline-flex items-center gap-2 text-indigo-600 font-semibold hover:text-indigo-800 transition">
+      Ver la lista completa de precios
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+      </svg>
+    </a>
+  </div>
+</div>

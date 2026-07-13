@@ -6,6 +6,8 @@ import PageHero from "@components/PageHero.astro";
 import Pain from "@components/pain.astro";
 import Services from "@components/services.astro";
 import Testimonials from "@components/Testimonials.astro";
+import ComoFunciona from "@components/ComoFunciona.astro";
+import PreciosTeaser from "@components/PreciosTeaser.astro";
 import Layout from "@layouts/Layout.astro";
 import FAQ from "@components/FAQ.md";
 
@@ -42,7 +44,15 @@ const faqSchema = {
       "name": "¿Cuáles son los costos del servicio de armado de muebles?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Los costos varían según el tipo de mueble y la complejidad del armado. Proporcionamos una cotización previa basada en estos factores."
+        "text": "Los precios van desde $350 (una mesa de luz) hasta $1.600 (un placard grande). Como referencia: una cama $700, un rack de TV $650, un placard de 4 puertas $1.000. Son precios orientativos que dependen del modelo; el precio exacto se confirma gratis con una foto por WhatsApp, con traslado en Montevideo y garantía de 30 días incluidos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Pueden armar el mueble el mismo día?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, según disponibilidad vamos el mismo día y sin recargo por urgencia. Conviene escribir temprano por WhatsApp para coordinar."
       }
     },
     {
@@ -77,11 +87,13 @@ const faqSchema = {
   <Container class="space-y-24">
     <PageHero
       title="Armado de Muebles a Domicilio en Montevideo"
-      description="Armamos roperos, camas, escritorios, comedores y más en tu casa. Llegamos con las herramientas, lo dejamos listo y te damos garantía."
+      description="Armamos roperos, camas, escritorios y comedores en tu casa desde $350, con traslado gratis, herramientas y garantía de 30 días. Y si lo necesitás hoy, vamos hoy."
       badge="+500 muebles armados en Montevideo"
     />
     <Pain />
+    <ComoFunciona />
     <Features />
+    <PreciosTeaser />
     <Services/>
     <Testimonials />
     <FAQ />

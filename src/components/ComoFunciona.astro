@@ -1,0 +1,53 @@
+---
+import BtnWhatsapp from "./ui/BtnWhatsapp.astro";
+
+const steps = [
+  {
+    step: 1,
+    title: "Mandanos una foto",
+    description: "Sacale una foto al mueble (o a la caja sin abrir) y envianosla por WhatsApp.",
+  },
+  {
+    step: 2,
+    title: "Recibí el precio cerrado",
+    description: "Te respondemos en menos de 1 hora con el precio final. Sin sorpresas después.",
+  },
+  {
+    step: 3,
+    title: "Coordinamos día y hora",
+    description: "De lunes a sábado, en el horario que te quede mejor. ¿Es urgente? Vamos hoy.",
+  },
+  {
+    step: 4,
+    title: "Armamos y pagás al final",
+    description: "Llegamos con las herramientas, armamos, nivelamos y revisamos todo. Pagás cuando está listo.",
+  },
+];
+---
+
+<div class="py-4">
+  <div class="text-center max-w-2xl mx-auto">
+    <h2 class="text-3xl lg:text-4xl font-bold lg:tracking-tight">
+      Cotizá en 1 minuto, armamos en el día
+    </h2>
+    <p class="text-lg mt-4 text-slate-600">
+      Así de simple es el proceso, de la foto al mueble listo.
+    </p>
+  </div>
+
+  <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-12 max-w-5xl mx-auto">
+    {steps.map((item) => (
+      <div>
+        <div class="bg-indigo-600 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center text-lg">
+          {item.step}
+        </div>
+        <h3 class="font-semibold text-lg mt-4">{item.title}</h3>
+        <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+      </div>
+    ))}
+  </div>
+
+  <div class="text-center mt-12">
+    <BtnWhatsapp />
+  </div>
+</div>
