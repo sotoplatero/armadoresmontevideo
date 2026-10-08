@@ -2,6 +2,11 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/servicio/armado-muebles-domicilio/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/servicio/armado-muebles-domicilio",
       "destination": "/",
       "permanent": true
