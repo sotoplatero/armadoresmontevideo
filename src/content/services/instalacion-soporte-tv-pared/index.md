@@ -6,7 +6,7 @@ menu: Instalación de Soporte de TV
 
 ¿Compraste una TV y necesitás que alguien instale el soporte en la pared? Vamos a tu casa en Montevideo, fijamos el soporte de forma segura y te dejamos la TV nivelada y lista para usar. Trabajamos sobre cualquier tipo de pared: ladrillo, hormigón, durlock/yeso y placas.
 
-Somos **instaladores de soportes para TV a domicilio**: llevamos las herramientas, los tacos y tornillos adecuados según tu pared, y dejamos todo prolijo.
+Somos **instaladores de soportes para TV a domicilio**: llevamos las herramientas, los tacos y tornillos adecuados según tu pared, y dejamos todo prolijo. Hacemos la colocación del soporte y también colgamos la TV, así que no necesitás buscar un instalador de TV aparte.
 
 ---
 
@@ -42,6 +42,12 @@ Una TV mal fijada es un riesgo real: tornillos en el taco equivocado o un soport
 
 **¿El soporte lo ponen ustedes?**
 No, el soporte lo comprás vos según el modelo de tu TV. Nosotros lo instalamos. Si tenés dudas de qué soporte comprar, consultanos y te orientamos antes.
+
+**¿Cuánto cuesta instalar una TV en la pared?**
+La instalación del soporte de TV en pared cuesta $800 como referencia, con el traslado en Montevideo incluido. El precio final depende del tipo de pared y del soporte; mandanos una foto y te confirmamos el valor exacto.
+
+**¿Cuelgan la TV o solo colocan el soporte?**
+Las dos cosas: colocamos el soporte en la pared, colgamos la TV, la nivelamos y probamos que quede firme.
 
 **¿Instalan en paredes de durlock o yeso?**
 Sí. Usamos los anclajes específicos para durlock/yeso. Contanos el tipo de pared al pedir el presupuesto para llevar los tacos adecuados.
