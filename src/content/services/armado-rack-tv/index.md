@@ -25,7 +25,7 @@ Armamos racks, centros de entretenimiento, muebles con estantes y cualquier mueb
 |----------|--------|
 | Rack para TV / centro de entretenimiento | $650 |
 
-Estos precios son orientativos: el precio final depende del modelo y tamaño del mueble. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días — y si lo necesitás hoy, armamos en el día sin recargo. [Ver todos los precios](/precios).
+Estos precios son orientativos: el precio final depende del modelo y tamaño del mueble. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días — y si lo necesitás hoy, armamos en el día sin recargo. [Ver todos los precios](/precios/).
 
 ---
 
@@ -50,10 +50,10 @@ Te avisamos para que reclames al vendedor.
 Sí. Si algo no queda bien, volvemos sin costo.
 
 **¿Arman otros muebles?**
-Sí, [roperos](/servicio/armado-placares-ropero), [camas](/servicio/armado-juego-camas), [estanterías](/servicio/armado-multiusos-estanteria) y más. Mirá todos nuestros [servicios](/servicios).
+Sí, [roperos](/servicio/armado-placares-ropero/), [camas](/servicio/armado-juego-camas/), [estanterías](/servicio/armado-multiusos-estanteria/) y más. Mirá todos nuestros [servicios](/servicios/).
 
 ---
 
 ## Contacto
 
-Mandanos una foto del mueble por [WhatsApp](https://wa.me/59895881009) y te pasamos el precio. También podés usar la página de [contacto](/contacto).
+Mandanos una foto del mueble por [WhatsApp](https://wa.me/59895881009) y te pasamos el precio. También podés usar la página de [contacto](/contacto/).

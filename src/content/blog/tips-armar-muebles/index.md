@@ -55,6 +55,6 @@ Seguir estos tips para armar muebles te ayudará a completar tus proyectos de ma
 
 ## ¿Preferís dejarlo en manos de profesionales?
 
-Si el armado te resulta complicado o simplemente no tenés tiempo, en **Armadores Montevideo** nos encargamos por vos. Armamos [camas](/servicio/armado-juego-camas), [muebles de cocina](/servicio/armado-muebles-cocina), [escritorios](/servicio/armado-escritorio-computadora) y mucho más.
+Si el armado te resulta complicado o simplemente no tenés tiempo, en **Armadores Montevideo** nos encargamos por vos. Armamos [camas](/servicio/armado-juego-camas/), [muebles de cocina](/servicio/armado-muebles-cocina/), [escritorios](/servicio/armado-escritorio-computadora/) y mucho más.
 
-[Ver todos nuestros servicios](/servicios) | [Consultar por WhatsApp](https://wa.me/59895881009)
+[Ver todos nuestros servicios](/servicios/) | [Consultar por WhatsApp](https://wa.me/59895881009)

@@ -26,7 +26,7 @@ Vamos a tu casa en Montevideo, armamos todo y dejamos la cocina lista. Trabajamo
 | Módulo de cocina o aéreo | $600 c/u |
 | Cocina completa (varios módulos) | $600 por módulo |
 
-Estos precios son orientativos: el precio final depende de la cantidad y complejidad de los módulos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos los precios](/precios).
+Estos precios son orientativos: el precio final depende de la cantidad y complejidad de los módulos. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos los precios](/precios/).
 
 ---
 
@@ -51,10 +51,10 @@ Te avisamos para que reclames al vendedor. Volvemos cuando las tengas.
 Sí. Si algo no queda bien, volvemos sin costo.
 
 **¿Arman otros muebles?**
-Sí, [roperos](/servicio/armado-placares-ropero), [camas](/servicio/armado-juego-camas), [escritorios](/servicio/armado-escritorio-computadora) y más. Mirá todos nuestros [servicios](/servicios).
+Sí, [roperos](/servicio/armado-placares-ropero/), [camas](/servicio/armado-juego-camas/), [escritorios](/servicio/armado-escritorio-computadora/) y más. Mirá todos nuestros [servicios](/servicios/).
 
 ---
 
 ## Contacto
 
-Mandanos fotos de los muebles por [WhatsApp](https://wa.me/59895881009) y te pasamos el precio. También podés escribirnos desde la página de [contacto](/contacto).
+Mandanos fotos de los muebles por [WhatsApp](https://wa.me/59895881009) y te pasamos el precio. También podés escribirnos desde la página de [contacto](/contacto/).

@@ -26,7 +26,7 @@ Llegamos con las herramientas, armamos la cuna siguiendo las instrucciones del f
 | Cuna estándar | $700 |
 | Cuna funcional / convertible | $1200 |
 
-Estos precios son orientativos: el precio final depende del modelo de la cuna. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos los precios](/precios).
+Estos precios son orientativos: el precio final depende del modelo de la cuna. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos los precios](/precios/).
 
 ---
 
@@ -54,4 +54,4 @@ Sí, cambiadores, muebles de guardado, sillas altas y lo que necesites.
 
 ## Contacto
 
-Mandanos una foto de la cuna por [WhatsApp](https://wa.me/59895881009) y coordinamos. También podés escribirnos desde la página de [contacto](/contacto).
+Mandanos una foto de la cuna por [WhatsApp](https://wa.me/59895881009) y coordinamos. También podés escribirnos desde la página de [contacto](/contacto/).

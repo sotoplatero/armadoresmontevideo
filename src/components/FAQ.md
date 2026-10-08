@@ -49,6 +49,6 @@ Sí, también ofrecemos servicios de desmontaje y reubicación de muebles. Estos
 Sí, todos nuestros técnicos están capacitados y tienen amplia experiencia en el armado de muebles de diferentes tipos y marcas.
 
 ### 14. ¿Cubren toda la ciudad?
-Sí, ofrecemos nuestros servicios en casi todos los barrios de Montevideo, con traslado incluido en el precio. También llegamos a Ciudad de la Costa. Cualquier duda escribinos por [WhatsApp](https://wa.me/59895881009) o desde la página de [contacto](/contacto).
+Sí, ofrecemos nuestros servicios en casi todos los barrios de Montevideo, con traslado incluido en el precio. También llegamos a Ciudad de la Costa. Cualquier duda escribinos por [WhatsApp](https://wa.me/59895881009) o desde la página de [contacto](/contacto/).
 
 </div>

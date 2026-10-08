@@ -20,7 +20,7 @@ const services = await getCollection('services')
 <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
   {
     services.map((item) => (
-      <a href={`/servicio/${item.slug}`}>
+      <a href={`/servicio/${item.slug}/`}>
         <div class="aspect-video object-cover rounded-md">
             <FormatImage src={`/src/content/services/${item.slug}/image`} alt={item.data.title}/>
         </div>

@@ -29,12 +29,12 @@ const services = await getCollection("services");
       <div>
         <h3 class="font-medium text-sm text-slate-800">Empresa</h3>
         <div class="flex flex-col mt-3 text-sm text-slate-600 space-y-3">
-          <a href="/servicios" class="hover:text-indigo-600"> Servicios </a>
-          <a href="/precios" class="hover:text-indigo-600"> Precios </a>
-          <a href="/nosotros" class="hover:text-indigo-600"> Nosotros </a>
-          <a href="/blog" class="hover:text-indigo-600"> Blog </a>
-          <a href="/contacto" class="hover:text-indigo-600"> Contacto </a>
-          <a href="/privacidad" class="hover:text-indigo-600"
+          <a href="/servicios/" class="hover:text-indigo-600"> Servicios </a>
+          <a href="/precios/" class="hover:text-indigo-600"> Precios </a>
+          <a href="/nosotros/" class="hover:text-indigo-600"> Nosotros </a>
+          <a href="/blog/" class="hover:text-indigo-600"> Blog </a>
+          <a href="/contacto/" class="hover:text-indigo-600"> Contacto </a>
+          <a href="/privacidad/" class="hover:text-indigo-600"
             >Privacidad y Condiciones</a
           >
         </div>
@@ -47,7 +47,7 @@ const services = await getCollection("services");
               .sort((a, b) => a.data.menu.localeCompare(b.data.menu))
               .map((service) => (
                 <a
-                  href={`/servicio/${service.slug}`}
+                  href={`/servicio/${service.slug}/`}
                   class="text-sm text-slate-600 hover:text-indigo-600">
                   {" "}
                   {service.data.menu}{" "}

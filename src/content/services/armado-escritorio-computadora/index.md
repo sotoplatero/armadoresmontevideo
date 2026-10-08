@@ -27,7 +27,7 @@ Llevamos las herramientas y seguimos las instrucciones del fabricante. Antes de 
 | Escritorios componibles, operativos y de hogar | $650 |
 | Escritorios gerenciales y de reunión | $900 |
 
-Estos precios son orientativos: el precio final depende del modelo y tamaño del escritorio. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos los precios](/precios).
+Estos precios son orientativos: el precio final depende del modelo y tamaño del escritorio. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos los precios](/precios/).
 
 ---
 
@@ -49,10 +49,10 @@ Te avisamos para que reclames al vendedor. Cuando lleguen, volvemos a terminar.
 Sí. Si algo no queda bien, lo arreglamos sin costo.
 
 **¿Arman otros muebles?**
-Sí, también [roperos](/servicio/armado-placares-ropero), [camas](/servicio/armado-juego-camas), [estanterías](/servicio/armado-multiusos-estanteria) y más. Mirá todos nuestros [servicios](/servicios).
+Sí, también [roperos](/servicio/armado-placares-ropero/), [camas](/servicio/armado-juego-camas/), [estanterías](/servicio/armado-multiusos-estanteria/) y más. Mirá todos nuestros [servicios](/servicios/).
 
 ---
 
 ## Contacto
 
-Mandanos una foto del escritorio por [WhatsApp](https://wa.me/59895881009) y te respondemos con el precio. También podés usar la página de [contacto](/contacto).
+Mandanos una foto del escritorio por [WhatsApp](https://wa.me/59895881009) y te respondemos con el precio. También podés usar la página de [contacto](/contacto/).

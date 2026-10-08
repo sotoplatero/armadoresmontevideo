@@ -21,7 +21,7 @@ Armamos roperos de todo tipo: de 2 a 8 puertas, con puertas corredizas, con espe
 | Placard 2 puertas corredizas y cajones            | $1100   |
 | Placard 3 puertas corredizas con espejo y cajones | $1600   |
 
-Estos precios son orientativos: el precio final depende del modelo y tamaño del ropero. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días — y si lo necesitás hoy, armamos en el día sin recargo. [Ver todos los precios](/precios).
+Estos precios son orientativos: el precio final depende del modelo y tamaño del ropero. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días — y si lo necesitás hoy, armamos en el día sin recargo. [Ver todos los precios](/precios/).
 
 ---
 
@@ -31,7 +31,7 @@ Estos precios son orientativos: el precio final depende del modelo y tamaño del
 - Roperos con puertas corredizas
 - Roperos con espejo
 - Roperos infantiles
-- [Cómodas y cajoneras](/servicio/armado-comodas)
+- [Cómodas y cajoneras](/servicio/armado-comodas/)
 
 ---
 
@@ -53,10 +53,10 @@ Te avisamos y cuando el vendedor te las mande, volvemos a terminar.
 Sí. Si algo no queda bien, volvemos sin costo.
 
 **¿Arman otros muebles?**
-Sí, también armamos [camas](/servicio/armado-juego-camas), [escritorios](/servicio/armado-escritorio-computadora), [muebles de cocina](/servicio/armado-muebles-cocina) y más. Mirá todos nuestros [servicios](/servicios).
+Sí, también armamos [camas](/servicio/armado-juego-camas/), [escritorios](/servicio/armado-escritorio-computadora/), [muebles de cocina](/servicio/armado-muebles-cocina/) y más. Mirá todos nuestros [servicios](/servicios/).
 
 ---
 
 ## Contacto
 
-Mandanos una foto del ropero por [WhatsApp](https://wa.me/59895881009) y te pasamos el precio. También podés usar la página de [contacto](/contacto).
+Mandanos una foto del ropero por [WhatsApp](https://wa.me/59895881009) y te pasamos el precio. También podés usar la página de [contacto](/contacto/).

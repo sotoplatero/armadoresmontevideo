@@ -88,7 +88,7 @@ const serviceSchema = [
       image={heroImage}
       breadcrumbs={[
         { label: "Inicio", href: "/" },
-        { label: "Servicios", href: "/servicios" },
+        { label: "Servicios", href: "/servicios/" },
         { label: entry.data.menu }
       ]}
     />
@@ -99,7 +99,7 @@ const serviceSchema = [
       <Content />
     </article>
     <div class="text-center my-8">
-      <a href="/servicios" class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition">
+      <a href="/servicios/" class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition">
         Todos Los Servicios &rarr;
       </a>
     </div>
@@ -107,7 +107,7 @@ const serviceSchema = [
       <h2 class="text-2xl font-bold">Servicios Relacionados</h2>
       <div class="grid sm:grid-cols-2 gap-4 mt-4">
         {relatedServices.map(service => (
-          <a href={`/servicio/${service.slug}`} class="block p-4 border rounded-md hover:bg-gray-100 transition">
+          <a href={`/servicio/${service.slug}/`} class="block p-4 border rounded-md hover:bg-gray-100 transition">
             <h3 class="text-xl font-semibold">{service.data.menu}</h3>
             <p>{service.data.description}</p>
           </a>

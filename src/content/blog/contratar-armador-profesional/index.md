@@ -49,10 +49,10 @@ Finalmente, el beneficio más evidente es el resultado final. Un mueble ensambla
 
 ---
 
-En resumen, contratar un [servicio profesional de armado de muebles](/servicios) ofrece numerosos beneficios que van desde el ahorro de tiempo y esfuerzo hasta la garantía de un resultado final de alta calidad. Ya sea que necesites armar un [ropero](/servicio/armado-placares-ropero), una [cama](/servicio/armado-juego-camas) o un [escritorio](/servicio/armado-escritorio-computadora), contar con expertos hace toda la diferencia.
+En resumen, contratar un [servicio profesional de armado de muebles](/servicios/) ofrece numerosos beneficios que van desde el ahorro de tiempo y esfuerzo hasta la garantía de un resultado final de alta calidad. Ya sea que necesites armar un [ropero](/servicio/armado-placares-ropero/), una [cama](/servicio/armado-juego-camas/) o un [escritorio](/servicio/armado-escritorio-computadora/), contar con expertos hace toda la diferencia.
 
 ---
 
 ## ¿Necesitás ayuda profesional?
 
-En **Armadores Montevideo** nos encargamos del armado de tus muebles a domicilio. [Consulta nuestros precios](/precios) o escribinos por [WhatsApp](https://wa.me/59895881009) para una cotización sin compromiso.
+En **Armadores Montevideo** nos encargamos del armado de tus muebles a domicilio. [Consulta nuestros precios](/precios/) o escribinos por [WhatsApp](https://wa.me/59895881009) para una cotización sin compromiso.

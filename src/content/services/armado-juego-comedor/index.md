@@ -30,7 +30,7 @@ El proceso es simple: nos mandás una foto del mueble por [WhatsApp](https://wa.
 | Juego de Comedor 6 sillas                    | $ 1300      |
 | Juego de Comedor mayor a 6 sillas            | $ 1600      |
 
-Los precios son orientativos: el precio final depende del modelo y la cantidad de sillas. Mandanos una foto y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos nuestros precios](/precios).
+Los precios son orientativos: el precio final depende del modelo y la cantidad de sillas. Mandanos una foto y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos nuestros precios](/precios/).
 
 ---
 
@@ -52,10 +52,10 @@ Te avisamos en el momento. Podés reclamar al vendedor y cuando tengas las pieza
 Sí. Si algo queda mal, volvemos a revisarlo sin costo.
 
 **¿Arman otros muebles además de comedores?**
-Sí, armamos todo tipo de muebles: [camas](/servicio/armado-juego-camas), [roperos](/servicio/armado-placares-ropero), [escritorios](/servicio/armado-escritorio-computadora) y más. Podés ver todos nuestros [servicios](/servicios).
+Sí, armamos todo tipo de muebles: [camas](/servicio/armado-juego-camas/), [roperos](/servicio/armado-placares-ropero/), [escritorios](/servicio/armado-escritorio-computadora/) y más. Podés ver todos nuestros [servicios](/servicios/).
 
 ---
 
 ## Contacto
 
-Mandanos una foto del mueble por [WhatsApp](https://wa.me/59895881009) y te respondemos con el precio. También podés escribirnos desde la página de [contacto](/contacto).
+Mandanos una foto del mueble por [WhatsApp](https://wa.me/59895881009) y te respondemos con el precio. También podés escribirnos desde la página de [contacto](/contacto/).

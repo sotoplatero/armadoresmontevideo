@@ -1,8 +1,8 @@
 import type { Metadata, Site, Socials } from "@types";
 
 export const SITE: Site = {
-  TITLE: "Armador de Muebles a Domicilio en Montevideo | Desde $350",
-  DESCRIPTION: "Armamos roperos, camas, racks y escritorios en tu casa, en el día. Precios desde $350, con herramientas y garantía de 30 días. Cotizá gratis por WhatsApp.",
+  TITLE: "Armador de Muebles a Domicilio en Montevideo · En el Día desde $350",
+  DESCRIPTION: "Armador de muebles a domicilio en el día: roperos, camas, racks y escritorios desde $350. Traslado, herramientas y garantía de 30 días incluidos. Cotizá gratis por WhatsApp.",
   EMAIL: "contacto@armadoresmontevideo.uy",
   NUM_POSTS_ON_HOMEPAGE: 6,
   NUM_PROJECTS_ON_HOMEPAGE: 3,

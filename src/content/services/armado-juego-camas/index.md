@@ -29,7 +29,7 @@ Trabajamos con todas las marcas. Llevamos las herramientas, seguimos las instruc
 | Cuchetas                          | $ 1200    |
 | Multicamas y Camas Funcionales    | $ 1000    |
 
-Estos precios son orientativos: el precio final depende del modelo y tamaño de la cama. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días — y si la necesitás hoy, la armamos en el día sin recargo. [Ver todos nuestros precios](/precios).
+Estos precios son orientativos: el precio final depende del modelo y tamaño de la cama. Mandanos una foto por [WhatsApp](https://wa.me/59895881009) y te damos el precio exacto. Incluye traslado en Montevideo, herramientas y garantía de 30 días — y si la necesitás hoy, la armamos en el día sin recargo. [Ver todos nuestros precios](/precios/).
 
 ---
 
@@ -51,10 +51,10 @@ Te avisamos en el momento para que puedas reclamar al vendedor. Cuando las tenga
 Sí. Si algo no queda bien, volvemos a revisarlo sin costo adicional.
 
 **¿Arman otros muebles?**
-Sí, también armamos [roperos](/servicio/armado-placares-ropero), [comedores](/servicio/armado-juego-comedor), [escritorios](/servicio/armado-escritorio-computadora) y más. Mirá todos nuestros [servicios](/servicios).
+Sí, también armamos [roperos](/servicio/armado-placares-ropero/), [comedores](/servicio/armado-juego-comedor/), [escritorios](/servicio/armado-escritorio-computadora/) y más. Mirá todos nuestros [servicios](/servicios/).
 
 ---
 
 ## Contacto
 
-Mandanos una foto de la cama por [WhatsApp](https://wa.me/59895881009) y te pasamos el precio. También podés escribirnos desde la página de [contacto](/contacto).
+Mandanos una foto de la cama por [WhatsApp](https://wa.me/59895881009) y te pasamos el precio. También podés escribirnos desde la página de [contacto](/contacto/).

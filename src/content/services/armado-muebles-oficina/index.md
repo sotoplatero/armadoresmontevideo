@@ -28,7 +28,7 @@ Trabajamos con cualquier marca y cantidad. Si tenés varios muebles, los armamos
 | Escritorios operativos y de hogar | $650 |
 | Escritorios gerenciales y de reunión | $900 |
 
-Estos precios son orientativos: el precio final depende del modelo y la cantidad. Mandanos las fotos por [WhatsApp](https://wa.me/59895881009) y te hacemos un presupuesto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos los precios](/precios).
+Estos precios son orientativos: el precio final depende del modelo y la cantidad. Mandanos las fotos por [WhatsApp](https://wa.me/59895881009) y te hacemos un presupuesto. Incluye traslado en Montevideo, herramientas y garantía de 30 días. [Ver todos los precios](/precios/).
 
 ---
 
@@ -50,10 +50,10 @@ Te avisamos para que reclames al proveedor.
 Sí. Si algo no queda bien, volvemos sin costo.
 
 **¿Arman muebles para el hogar también?**
-Sí, [roperos](/servicio/armado-placares-ropero), [camas](/servicio/armado-juego-camas), [comedores](/servicio/armado-juego-comedor) y más. Mirá todos nuestros [servicios](/servicios).
+Sí, [roperos](/servicio/armado-placares-ropero/), [camas](/servicio/armado-juego-camas/), [comedores](/servicio/armado-juego-comedor/) y más. Mirá todos nuestros [servicios](/servicios/).
 
 ---
 
 ## Contacto
 
-Mandanos fotos de los muebles por [WhatsApp](https://wa.me/59895881009) y te pasamos el presupuesto. También podés usar la página de [contacto](/contacto).
+Mandanos fotos de los muebles por [WhatsApp](https://wa.me/59895881009) y te pasamos el presupuesto. También podés usar la página de [contacto](/contacto/).

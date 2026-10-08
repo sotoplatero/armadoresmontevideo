@@ -12,14 +12,14 @@ Llevamos las herramientas, seguimos las instrucciones del fabricante y antes de 
 
 ## ¿Qué muebles armamos?
 
-- [Camas y cabeceras](/servicio/armado-juego-camas)
-- [Roperos y placares](/servicio/armado-placares-ropero)
-- [Comedores y sillas](/servicio/armado-juego-comedor)
-- [Escritorios](/servicio/armado-escritorio-computadora)
-- [Estanterías y bibliotecas](/servicio/armado-multiusos-estanteria)
-- [Muebles de cocina](/servicio/armado-muebles-cocina)
-- [Muebles de baño](/servicio/armado-mueble-bano)
-- [Cómodas y cajoneras](/servicio/armado-comodas)
+- [Camas y cabeceras](/servicio/armado-juego-camas/)
+- [Roperos y placares](/servicio/armado-placares-ropero/)
+- [Comedores y sillas](/servicio/armado-juego-comedor/)
+- [Escritorios](/servicio/armado-escritorio-computadora/)
+- [Estanterías y bibliotecas](/servicio/armado-multiusos-estanteria/)
+- [Muebles de cocina](/servicio/armado-muebles-cocina/)
+- [Muebles de baño](/servicio/armado-mueble-bano/)
+- [Cómodas y cajoneras](/servicio/armado-comodas/)
 - Y más — si tenés un mueble para armar, consultanos
 
 ---
@@ -36,7 +36,7 @@ Llevamos las herramientas, seguimos las instrucciones del fabricante y antes de 
 ## Preguntas Frecuentes
 
 **¿Cuánto cuesta?**
-Depende del mueble. [Mirá nuestros precios orientativos](/precios) o mandanos una foto para un precio exacto.
+Depende del mueble. [Mirá nuestros precios orientativos](/precios/) o mandanos una foto para un precio exacto.
 
 **¿Necesito tener herramientas?**
 No, llevamos todo lo necesario.
@@ -54,4 +54,4 @@ Sí. Si algo no queda bien, volvemos sin costo.
 
 ## Contacto
 
-Mandanos una foto del mueble por [WhatsApp](https://wa.me/59895881009) y te pasamos el precio. También podés escribirnos desde la página de [contacto](/contacto).
+Mandanos una foto del mueble por [WhatsApp](https://wa.me/59895881009) y te pasamos el precio. También podés escribirnos desde la página de [contacto](/contacto/).
